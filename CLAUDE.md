@@ -242,3 +242,9 @@ and "notes_for_generators" (what is scoring well / badly, updated each round).
 
 Subagents return only a one-line summary in their final message; all substance
 goes into files.
+
+WEB SEARCH BUDGET (learned in Round 1): all subagents share a WebSearch cap of ~200 calls
+per orchestrator turn; overlapping waves share it. Run only ONE search-heavy wave at a time
+(≤ ~180 planned searches: e.g. 4 researchers × 5 ideas × 8 queries, or critics at ~4
+searches per idea), and start the next wave only after the previous one has fully reported.
+WebFetch is blocked by the environment network policy (as of 2026-11-05) — see rounds/round-00.md.
