@@ -4,13 +4,13 @@
 
 | Type | Name | Signals | Problems containing type | Researched | Score ≥65 | Score ≥80 | Accepted |
 |---|---|---|---|---|---|---|---|
-| S1 | Job ads | 58 | 0 | 0 | 0 | 0 | 0 |
-| S2 | Bad reviews | 59 | 0 | 0 | 0 | 0 | 0 |
-| S3 | Triggers | 59 | 0 | 0 | 0 | 0 | 0 |
-| S4 | Tenders & grants | 59 | 0 | 0 | 0 | 0 | 0 |
-| S5 | Freelance gigs | 59 | 0 | 0 | 0 | 0 | 0 |
-| S6 | Forums & communities | 60 | 0 | 0 | 0 | 0 | 0 |
-| S7 | Enforcement & losses | 60 | 0 | 0 | 0 | 0 | 0 |
+| S1 | Job ads | 58 | 22 | 0 | 0 | 0 | 0 |
+| S2 | Bad reviews | 59 | 16 | 0 | 0 | 0 | 0 |
+| S3 | Triggers | 59 | 32 | 0 | 0 | 0 | 0 |
+| S4 | Tenders & grants | 59 | 26 | 0 | 0 | 0 | 0 |
+| S5 | Freelance gigs | 59 | 25 | 0 | 0 | 0 | 0 |
+| S6 | Forums & communities | 60 | 24 | 0 | 0 | 0 | 0 |
+| S7 | Enforcement & losses | 60 | 26 | 0 | 0 | 0 | 0 |
 
 Definitions: S1 job ads; S2 1–3★ reviews of incumbents; S3 triggers 2025–2028; S4 public tenders & grants;
 S5 recurring freelance gigs; S6 forums & communities; S7 enforcement, fines, ombudsman, insurer losses.

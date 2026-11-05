@@ -1,11 +1,11 @@
 {
   "round": 1,
   "accepted": [],
-  "last_completed_step": "mine",
+  "last_completed_step": "cluster",
   "source_type_yield": {
     "S1": {
       "signals": 58,
-      "in_problems": 0,
+      "in_problems": 22,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -13,7 +13,7 @@
     },
     "S2": {
       "signals": 59,
-      "in_problems": 0,
+      "in_problems": 16,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -21,7 +21,7 @@
     },
     "S3": {
       "signals": 59,
-      "in_problems": 0,
+      "in_problems": 32,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -29,7 +29,7 @@
     },
     "S4": {
       "signals": 59,
-      "in_problems": 0,
+      "in_problems": 26,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -37,7 +37,7 @@
     },
     "S5": {
       "signals": 59,
-      "in_problems": 0,
+      "in_problems": 25,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -45,7 +45,7 @@
     },
     "S6": {
       "signals": 60,
-      "in_problems": 0,
+      "in_problems": 24,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -53,7 +53,7 @@
     },
     "S7": {
       "signals": 60,
-      "in_problems": 0,
+      "in_problems": 26,
       "researched": 0,
       "score_65_plus": 0,
       "score_80_plus": 0,
@@ -130,5 +130,5 @@
     "Self-storage": 0
   },
   "total_signals": 414,
-  "total_problems": 15
+  "total_problems": 181
 }
