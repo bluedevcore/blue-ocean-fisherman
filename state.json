@@ -2,7 +2,7 @@
   "round": 0,
   "accepted": [],
   "total_ideas": 0,
-  "last_completed_step": "setup",
+  "last_completed_step": "round0-rubric",
   "sector_fished": {
     "Agriculture – arable, horticulture & greenhouses": 1,
     "Livestock farming (cattle, sheep, pigs, poultry)": 0,
@@ -61,5 +61,5 @@
     "Dental, GP & veterinary practices": 0,
     "Prisons, police custody & secure facilities": 1
   },
-  "notes_for_generators": ""
+  "notes_for_generators": "Round 1 guidance (from rubric): favour problems where (a) a named regulation/insurer condition already forces checks or records, (b) someone already does a recurring manual task (daily/weekly logs, rounds, site visits) the sensor replaces, (c) a sourced £ loss per incident is >= ~£2-5k, (d) a channel ALREADY visits the site (service engineers, suppliers, insurers, contractors) and (e) a cheap LPWAN/cellular sensor <£50 works without customer IT. Avoid commoditised categories (heating-oil tank level gauges, generic restaurant fridge loggers), ATEX/medical/MCERTS, rare-catastrophe-only value, and anything needing the customer's Wi-Fi/IT."
 }
