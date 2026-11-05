@@ -6,58 +6,58 @@ Generators must set each idea's `sector` to exactly one of these names. (Auto-ge
 | # | Sector | Times fished | Ideas generated | Researched | Best score | Accepted |
 |---|---|---|---|---|---|---|
 | 1 | Agriculture – arable, horticulture & greenhouses | 1 | 11 | 4 | 68 | 0 |
-| 2 | Livestock farming (cattle, sheep, pigs, poultry) | 0 | 0 | 0 | - | 0 |
+| 2 | Livestock farming (cattle, sheep, pigs, poultry) | 0 | 3 | 0 | - | 0 |
 | 3 | Aquaculture & fisheries | 0 | 0 | 0 | - | 0 |
 | 4 | Cold chain & refrigerated transport | 0 | 0 | 0 | - | 0 |
-| 5 | Food & drink manufacturing | 1 | 0 | 0 | - | 0 |
+| 5 | Food & drink manufacturing | 1 | 12 | 0 | - | 0 |
 | 6 | Restaurants, pubs & commercial kitchens | 0 | 0 | 0 | - | 0 |
-| 7 | Hospitality – hotels, B&Bs, holiday lets | 1 | 0 | 0 | - | 0 |
-| 8 | Residential lettings & social housing | 1 | 10 | 6 | 69 | 0 |
+| 7 | Hospitality – hotels, B&Bs, holiday lets | 1 | 11 | 0 | - | 0 |
+| 8 | Residential lettings & social housing | 1 | 18 | 6 | 69 | 0 |
 | 9 | Commercial property & facilities management | 0 | 0 | 0 | - | 0 |
-| 10 | Construction sites | 0 | 0 | 0 | - | 0 |
-| 11 | Marine – marinas, boatyards, small commercial vessels | 0 | 0 | 0 | - | 0 |
+| 10 | Construction sites | 0 | 2 | 0 | - | 0 |
+| 11 | Marine – marinas, boatyards, small commercial vessels | 0 | 2 | 0 | - | 0 |
 | 12 | Healthcare facilities – hospitals & clinics | 1 | 9 | 2 | 72 | 0 |
-| 13 | Care homes & assisted living | 1 | 0 | 0 | - | 0 |
-| 14 | Pharmacies, dispensing & vaccine storage | 1 | 0 | 0 | - | 0 |
-| 15 | Laboratories & research facilities | 1 | 9 | 1 | 71 | 0 |
-| 16 | Logistics & warehousing | 1 | 10 | 4 | 69 | 0 |
-| 17 | Fleet & road haulage | 1 | 10 | 2 | 68 | 0 |
-| 18 | Electricity networks & substations | 0 | 0 | 0 | - | 0 |
-| 19 | Water & wastewater utilities | 1 | 0 | 0 | - | 0 |
+| 13 | Care homes & assisted living | 1 | 9 | 0 | - | 0 |
+| 14 | Pharmacies, dispensing & vaccine storage | 1 | 8 | 0 | - | 0 |
+| 15 | Laboratories & research facilities | 1 | 10 | 1 | 71 | 0 |
+| 16 | Logistics & warehousing | 1 | 11 | 4 | 69 | 0 |
+| 17 | Fleet & road haulage | 1 | 11 | 2 | 68 | 0 |
+| 18 | Electricity networks & substations | 0 | 1 | 0 | - | 0 |
+| 19 | Water & wastewater utilities | 1 | 9 | 0 | - | 0 |
 | 20 | Heating oil, LPG & fuel distribution | 1 | 8 | 3 | 58 | 0 |
-| 21 | Education – schools, colleges, universities | 1 | 0 | 0 | - | 0 |
-| 22 | Retail – shops & supermarkets | 1 | 0 | 0 | - | 0 |
-| 23 | Manufacturing & industrial plants | 1 | 10 | 5 | 67 | 0 |
-| 24 | Mining & quarrying | 1 | 0 | 0 | - | 0 |
-| 25 | Waste management & recycling | 1 | 0 | 0 | - | 0 |
-| 26 | Events, festivals & temporary venues | 1 | 0 | 0 | - | 0 |
+| 21 | Education – schools, colleges, universities | 1 | 8 | 0 | - | 0 |
+| 22 | Retail – shops & supermarkets | 1 | 12 | 0 | - | 0 |
+| 23 | Manufacturing & industrial plants | 1 | 12 | 5 | 67 | 0 |
+| 24 | Mining & quarrying | 1 | 9 | 0 | - | 0 |
+| 25 | Waste management & recycling | 1 | 8 | 0 | - | 0 |
+| 26 | Events, festivals & temporary venues | 1 | 8 | 0 | - | 0 |
 | 27 | Sport & leisure – gyms, pitches, stadiums | 0 | 0 | 0 | - | 0 |
-| 28 | Swimming pools & spas | 1 | 9 | 3 | 74 | 0 |
-| 29 | Animal care – kennels, catteries, vets, rescue | 1 | 0 | 0 | - | 0 |
-| 30 | Equine – stables, yards, horse transport | 1 | 0 | 0 | - | 0 |
+| 28 | Swimming pools & spas | 1 | 10 | 3 | 74 | 0 |
+| 29 | Animal care – kennels, catteries, vets, rescue | 1 | 9 | 0 | - | 0 |
+| 30 | Equine – stables, yards, horse transport | 1 | 7 | 0 | - | 0 |
 | 31 | Zoos, aquariums & wildlife parks | 1 | 9 | 0 | - | 0 |
-| 32 | Museums, archives, galleries & heritage buildings | 1 | 0 | 0 | - | 0 |
+| 32 | Museums, archives, galleries & heritage buildings | 1 | 7 | 0 | - | 0 |
 | 33 | Telecoms infrastructure – masts, cabinets, exchanges | 0 | 0 | 0 | - | 0 |
 | 34 | Aviation ground operations & airports | 1 | 8 | 0 | - | 0 |
 | 35 | Rail & transit infrastructure | 1 | 8 | 0 | - | 0 |
-| 36 | Ports, shipping containers & freight terminals | 1 | 0 | 0 | - | 0 |
-| 37 | Renewable energy – solar, wind, battery storage | 1 | 0 | 0 | - | 0 |
-| 38 | Forestry, timber & sawmills | 0 | 0 | 0 | - | 0 |
+| 36 | Ports, shipping containers & freight terminals | 1 | 9 | 0 | - | 0 |
+| 37 | Renewable energy – solar, wind, battery storage | 1 | 8 | 0 | - | 0 |
+| 38 | Forestry, timber & sawmills | 0 | 2 | 0 | - | 0 |
 | 39 | Vineyards, wineries, breweries & distilleries | 0 | 0 | 0 | - | 0 |
 | 40 | Beekeeping & pollination services | 0 | 0 | 0 | - | 0 |
 | 41 | Self-storage, lock-ups & archives storage | 0 | 0 | 0 | - | 0 |
-| 42 | Funeral services & mortuaries | 1 | 0 | 0 | - | 0 |
+| 42 | Funeral services & mortuaries | 1 | 7 | 0 | - | 0 |
 | 43 | Data centres, server rooms & comms rooms | 1 | 8 | 1 | 46 | 0 |
-| 44 | Places of worship, community halls & charities | 1 | 9 | 3 | 69 | 0 |
-| 45 | Motor trade – garages, dealerships, vehicle storage | 1 | 0 | 0 | - | 0 |
-| 46 | Plant, tool & equipment hire | 1 | 10 | 5 | 71 | 0 |
+| 44 | Places of worship, community halls & charities | 1 | 10 | 3 | 69 | 0 |
+| 45 | Motor trade – garages, dealerships, vehicle storage | 1 | 8 | 0 | - | 0 |
+| 46 | Plant, tool & equipment hire | 1 | 12 | 5 | 71 | 0 |
 | 47 | Local councils – parks, highways, street assets | 1 | 9 | 3 | 70 | 0 |
-| 48 | Security, alarm monitoring & key holding | 1 | 8 | 2 | 70 | 0 |
-| 49 | Commercial laundry, cleaning & washroom services | 1 | 0 | 0 | - | 0 |
+| 48 | Security, alarm monitoring & key holding | 1 | 9 | 2 | 70 | 0 |
+| 49 | Commercial laundry, cleaning & washroom services | 1 | 8 | 0 | - | 0 |
 | 50 | Pest control | 1 | 9 | 5 | 64 | 0 |
-| 51 | Fire safety & building safety compliance | 0 | 0 | 0 | - | 0 |
-| 52 | Grain stores, feed mills & bulk storage silos | 1 | 0 | 0 | - | 0 |
+| 51 | Fire safety & building safety compliance | 0 | 3 | 0 | - | 0 |
+| 52 | Grain stores, feed mills & bulk storage silos | 1 | 8 | 0 | - | 0 |
 | 53 | Fuel forecourts & EV charging sites | 1 | 9 | 1 | 66 | 0 |
 | 54 | Lifts, escalators & building plant rooms | 0 | 0 | 0 | - | 0 |
-| 55 | Dental, GP & veterinary practices | 1 | 0 | 0 | - | 0 |
+| 55 | Dental, GP & veterinary practices | 1 | 6 | 0 | - | 0 |
 | 56 | Prisons, police custody & secure facilities | 1 | 8 | 0 | - | 0 |
