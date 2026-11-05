@@ -1,0 +1,26 @@
+{"id": "R01-B-39",
+ "criterion_scores": {"c1": 2, "c2": 5, "c3": 5, "c4": 7, "c5": 4, "c6": 6, "c7": 4, "c8": 4, "c9": 4, "c10": 5},
+ "justifications": {
+  "c1": "There is no loss figure. The only money items are a c.2018 non-UK vendor notice of a 180% FM-200 price rise and a £50k public tender for a whole system (purchase cost, not a loss). No refill cost per cylinder or failed-suppression loss was found.",
+  "c2": "The check recurs only every six months (BS EN 15004, via secondary summaries; the Designing Buildings page was found, but its 5%/semi-annual detail was not seen in search). No statistic was found on how often cylinders fail the 5% test, so leak events are unquantified.",
+  "c3": "The workaround is documented: a 6-monthly contractor visit with weighing or ultrasonic level checks (Coltraco Portalevel, Parr 'gas supply integrity testing'). No labour time or price was found, and the visit stays mandatory regardless.",
+  "c4": "F-gas rules require leak checks and records (GOV.UK, NetRegs: 12-monthly, or 24 with leak detection), and EN 15004 requires semi-annual contents checks. However, the FIA says EN 15004/ISO 14520 servicing is deemed to satisfy F-gas (search-confirmed), so continuous monitoring is not required, and no enforcement was found.",
+  "c5": "The only buyer evidence is public tenders and a directory of BAFE SP203-3 contractors. No facilities or data-centre manager title with a suppression budget was found.",
+  "c6": "BAFE SP203-3 contractors visit twice a year and bundle 'gas supply integrity testing' (Parr, Protec). They install suppression systems and panels, which is adjacent technology, but there is no evidence they resell continuous contents monitoring.",
+  "c7": "Suppression-specific incumbents exist: Coltraco Permalevel Featherweight (1% leak flag, up to 48 cylinders, search-confirmed), TLX/Thames-side weighing, NAFFCO, Rotarex and a Kidde-Fenwal patent. No prices or customer counts were found, and the gap (price, cloud reporting) is only asserted.",
+  "c8": "No load-cell or transducer prices were found. Load platforms under heavy cylinders are a custom mechanical job, and adding a transducer to a listed system may affect FM/LPCB approval, which is unresolved. The plant room may also trap RF.",
+  "c9": "F-gas records are kept for 5 years, but the guidance's fire-protection scope is unconfirmed and EN 15004 servicing already satisfies it. Leak detection halving F-gas checks matters little, and no comparable subscription price was found.",
+  "c10": "WorkSafe WA bulletins (Australian regulator, about actuator failure rather than leaks), a 1987 US nuclear LER, one Eng-Tips forum thread and Novec phase-out vendor content. None is UK, and none shows that slow leaks are a recurring pain."
+ },
+ "total": 46,
+ "weakest": "There is no sourced money loss or leak-frequency data, and the FIA says the existing 6-monthly EN 15004 service already satisfies F-gas, so continuous monitoring is neither required nor shown to save money.",
+ "verified_urls": [
+  {"url": "https://www.fia.uk.com/news/f-gas-portables-what-do-the-changes-in-the-regulation-mean-for-the-uk-market-.html", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.designingbuildings.co.uk/wiki/Fire%20suppression%20system%20readiness%20between%20inspections", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.sensors.nl/en/vare/permalevel-featherweight-voor-constante-bewaking-brandblussystemen", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.fia.uk.com/news/f-gas-portables-what-do-the-changes-in-the-regulation-mean-for-the-uk-market-.html", "result": "search-confirmed", "note": "The snippet says: 'If the fire protection system is inspected in accordance with ISO 14520 or EN 15004, the requirements are deemed to have been met'"},
+  {"url": "https://www.designingbuildings.co.uk/wiki/Fire%20suppression%20system%20readiness%20between%20inspections", "result": "unconfirmed", "note": "The page appears in search with the readiness-between-inspections theme, but the semi-annual weighing and 5% threshold wording was not visible in snippets"},
+  {"url": "https://www.sensors.nl/en/vare/permalevel-featherweight-voor-constante-bewaking-brandblussystemen", "result": "search-confirmed", "note": "The snippet says a cylinder is marked 'LEAKING' if agent mass drops by more than 1%, and 4 units × 12 cylinders = 48. The 5% figure appears as a replacement criterion, not an alarm setpoint."}
+ ],
+ "distinct_credible_urls": 25,
+ "summary": "A niche already served by Coltraco, TLX and others, with no money loss, no leak-rate data, and a regulator-accepted 6-monthly service that removes the compliance pull; reject."}

@@ -1,0 +1,26 @@
+{"id": "R01-B-34",
+ "criterion_scores": {"c1": 4, "c2": 4, "c3": 6, "c4": 8, "c5": 4, "c6": 7, "c7": 3, "c8": 5, "c9": 6, "c10": 7},
+ "justifications": {
+  "c1": "The only per-incident figure is a 2013 Home Office average of £1,376 per retail burglary (below £2k). The £6,000 LV= claim is domestic, and the Convenience Store rejected-claim article (search-confirmed) gives no amount. No commercial declined-claim figure or shutter-caused loss was found.",
+  "c2": "Business burglary was falling to 2014 (CVS), with no per-site rate. There is no data on how often shutters or alarms are left unsecured. The protections duty applies nightly, but the costly event (a declined theft claim) is rare per site.",
+  "c3": "The paid substitutes are sourced: UK alarm monitoring at about £20–£30/month (Startups) and ARC 'late to close' add-ons at $10 + GST (a non-UK form). No source documents closing checklists or manager calls, or their labour cost.",
+  "c4": "Insurer protections conditions precedent are litigated. In Milton Furniture v Brit [2015] EWCA Civ 671 (search-confirmed) the CoA upheld the insurer's reliance on the 'whole of the protections... in use' alarm condition. Anders & Kern v CGU and A C Ward v Catlin are further cases, and FOS DRN-3358096 upheld a decline where the shutter was not secured. Insurance Act 2015 s.11 and FOS clarity rules soften the threat, and shutter-specific refusals are thin.",
+  "c5": "Business owners pay for alarm monitoring and brokers receive AXA risk guidance, but no buyer job title or budget evidence was found (the researcher records this as not searched).",
+  "c6": "Alarm installers and ARCs already fit roller-shutter contacts (Ajax DoorProtect Plus has a partial-open setting) and sell schedule monitoring ('late to close', 'open out of hours'). The only pricing evidence for that is a non-UK form, and the AXA broker documents show an insurer-to-broker guidance route.",
+  "c7": "The function is already built into equipment buyers own: shutter contacts with partial-open thresholds (Ajax, Watchguard, Chuango, Dinsafer) and ARC late-to-close alerts. The only gap is packaging it as a 'warranty compliance log', and nobody has evidenced paying for that.",
+  "c8": "Shutter contacts are commodity parts, and a LoRaWAN tilt node costs €57 (EM310-TILT). Reading alarm-set state needs integration with the alarm panel. NSI/grading rules on third-party devices on graded alarm systems were not checked, and cellular module cost was not found.",
+  "c9": "The protections condition applies nightly for the life of the policy, and businesses already pay £20–£30/month for monitoring. However, insurers do not require a nightly log, so the record's value only appears at claim time.",
+  "c10": "Tribunal and ombudsman decisions (Milton v Brit, Anders & Kern, several FOS DRNs), trade press (Convenience Store, search-confirmed), consumer news (Guardian via inkl) and Home Office CVS data. Most of it concerns alarms not set or domestic policies, not shutters left half-up."
+ },
+ "total": 54,
+ "weakest": "Existing intruder alarms with roller-shutter contacts, partial-open thresholds and ARC late-to-close alerts already do this job, so the product is a reporting layer on equipment buyers already own.",
+ "verified_urls": [
+  {"url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/671", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.financial-ombudsman.org.uk/decision/DRN-5385299.pdf", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://conveniencestore.co.uk/advice/a-warning-bell-sounds-for-store-alarm-systems/205022.article", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/671", "result": "search-confirmed", "note": "The search shows this URL and commentaries quoting GC7: 'the whole of the protections including any Burglar Alarm... shall be in use at all times out of business hours'. The CoA found for the insurer. This was a fire claim, not a shutter case."},
+  {"url": "https://www.financial-ombudsman.org.uk/decision/DRN-5385299.pdf", "result": "unconfirmed", "note": "A search for the DRN number plus protections, shutters and business hours returned other FOS decisions but not this one"},
+  {"url": "https://conveniencestore.co.uk/advice/a-warning-bell-sounds-for-store-alarm-systems/205022.article", "result": "search-confirmed", "note": "The snippet says the retailer's claim for loss and damage was rejected after a break-in. The reason and amount are not shown."}
+ ],
+ "distinct_credible_urls": 36,
+ "summary": "The insurer protections conditions are real and litigated, but the loss figures are small or domestic, the event is rare, and existing alarm systems with shutter contacts and late-to-close monitoring already cover the job."}

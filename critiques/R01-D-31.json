@@ -1,0 +1,26 @@
+{"id": "R01-D-31",
+ "criterion_scores": {"c1": 5, "c2": 8, "c3": 7, "c4": 8, "c5": 5, "c6": 9, "c7": 4, "c8": 6, "c9": 6, "c10": 6},
+ "justifications": {
+  "c1": "Independent per-incident fines on food firms are sourced: Ole & Steen £26k fine + £8.8k costs (search-confirmed), a cake maker £60k, Pearl Food £12k, and £16k. The stated pain, independents losing food-site contracts, has no money figure: contract value was not found, and one council's contracts start at £275/yr.",
+  "c2": "Food-site contracts run 8, 12 or 24 visits a year by risk level (PPC/BPCA, search-confirmed), with corroboration from Brent (8–14 visits a year) and Abate (12 a year). Every station is checked on each routine visit, at least monthly on medium- and high-risk sites.",
+  "c3": "This is a documented, paid, recurring technician service with sourced frequency (PPC, Brent, Abate). The BPCA advises pricing per visit, but the only cost figure is Brent's low-end £275/yr, and the BPCA cautions that sensors should not replace visits.",
+  "c4": "BRCGS Issue 9 clause 4.14 (12 sub-clauses: device maps, inspection frequency, annual assessment) is cited only through a Rentokil Poland vendor summary and a consultancy page. Enforcement exists: council prosecutions (Enfield, Westminster/Ole & Steen, Central Bedfordshire) and an IFSQN thread on a 4.14 major non-conformance. No rule requires electronic monitoring, so the idea's premise is unverified.",
+  "c5": "The buyer is an independent pest-control firm (the BPCA says 96% of members are SMEs; IBISWorld counts 838 businesses). Owner-operators are plausible buyers, but no title or budget evidence was found, and the food-site technical manager is not evidenced either.",
+  "c6": "Distributors already sell connected rodent monitoring to independents for food sites: Pelsis/Edialux (TrapMe, EverSmart), Pestfix (TrapMe £94.64, search-confirmed) and Syngenta SecureChoice via the NPTA and BPCA. The pest controller visits each site 8–24 times a year.",
+  "c7": "Crowded, and the stated gap is largely closed: Rentokil PestConnect, Anticimex SMART, Syngenta SecureChoice (retrofits any existing station, sold to independents), Pelsis TrapMe and EverSmart, and TrapSensor. No complaints were found showing independents lack options.",
+  "c8": "Retrofit station sensors are commercially proven (SecureChoice, with a 9-year battery claimed). Generic LoRaWAN nodes cost €57–€80, above £50, and gateway and LTE-M backhaul prices were not found. US11602144 creates a freedom-to-operate risk.",
+  "c9": "BRCGS annual assessments and contracts with 8–24 visits a year give records a structural, ongoing use, and subscriptions are the norm (TrapMe CAMRO subscription). The visible price anchor is low: the TrapSensor 12-month data plan is about £26/yr inc VAT, roughly £2/month.",
+  "c10": "Council enforcement (Enfield, Central Bedfordshire), trade press (Food Manufacture, The Caterer, BPCA) and food-safety forum threads (IFSQN) all exist, but they show infestation and audit pain. The idea's actual pain (independents losing contracts to digital offers) was searched for and not found."
+ },
+ "total": 64,
+ "weakest": "The claimed gap does not exist: Syngenta SecureChoice retrofits any existing bait station and is marketed to independents through the NPTA and BPCA, and Pelsis/Edialux and Pestfix already sell connected traps to them.",
+ "verified_urls": [
+  {"url": "https://www.thecaterer.com/news/ole-steen-fined-34000-for-food-hygiene-failings", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://ppconline.org/sector/accreditation-standards-in-focus-pest-risk-assessments-ppc", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.pestfix.co.uk/trapme-digital-rodent-trap.asp", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.thecaterer.com/news/ole-steen-fined-34000-for-food-hygiene-failings", "result": "search-confirmed", "note": "The search shows this URL. Ole & Steen was fined £26,000 plus £8,847 costs after fresh mouse droppings were found at Haymarket."},
+  {"url": "https://ppconline.org/sector/accreditation-standards-in-focus-pest-risk-assessments-ppc", "result": "search-confirmed", "note": "PPC107 article: 8 visits for low risk, 12 for medium, 24 for high; frequency usually 1, 2, 4 or 12"},
+  {"url": "https://www.pestfix.co.uk/trapme-digital-rodent-trap.asp", "result": "search-confirmed", "note": "TrapMe digital rodent trap £94.64 inc VAT, activation via the CAMRO portal, subscription required"}
+ ],
+ "distinct_credible_urls": 34,
+ "summary": "Strong channel and audit context, but the premise (independents locked out of digital monitoring) is contradicted by retrofit products already sold to them, and the price anchor is about £2/month."}
