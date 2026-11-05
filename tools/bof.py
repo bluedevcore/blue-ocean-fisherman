@@ -179,6 +179,13 @@ def verified_ok(iid, crit, ev_urls):
     return ok
 
 
+def search_ok(iid, crit, ev_urls):
+    ev = set(ev_urls or [])
+    return len({norm_url(v.get("url", "")) for v in (crit or {}).get("verified_urls", [])
+                if str(v.get("result", "")).lower().startswith("search-confirmed")
+                and norm_url(v.get("url", "")) in ev})
+
+
 def fmt_scores(cs):
     return " ".join(f"{k}={cs.get(k, '?')}" for k in CKEYS)
 
@@ -366,6 +373,7 @@ def cmd_scored(r):
             ev = evidence_urls(i["id"]) or []
             i.update({"status": "scored", "score": tot, "criterion_scores": cs,
                       "evidence_urls": len(ev), "verified_ok": verified_ok(i["id"], c, ev),
+                      "search_ok": search_ok(i["id"], c, ev),
                       "notes": ("weakest: " + str(c.get("weakest", ""))[:300])})
             totals.append((tot, i["id"]))
     save_ideas(ideas)
@@ -386,6 +394,16 @@ def cmd_qualifiers(r=None):
             continue
         if i["status"] == "scored" and is_qualifier(i):
             print(f"{i['id']} | {i['score']} | urls={i['evidence_urls']} verified={i['verified_ok']} | {i['title']}")
+    # provisional: all gates met except fetch-verification (network blocked)
+    for i in load_ideas():
+        if r is not None and i["round"] != int(r):
+            continue
+        cs = i.get("criterion_scores") or {}
+        if i["status"] == "scored" and (i.get("score") or 0) >= 90 and cs and min(cs.values()) >= 7 \
+                and (i.get("evidence_urls") or 0) >= 8 and (i.get("verified_ok") or 0) < 3 \
+                and (i.get("verified_ok") or 0) + (i.get("search_ok") or 0) >= 3:
+            print(f"PROVISIONAL (needs fetch-verification): {i['id']} | {i['score']} | "
+                  f"fetched_ok={i.get('verified_ok')} search_ok={i.get('search_ok')} | {i['title']}")
     # near-misses for info
     for i in load_ideas():
         if r is not None and i["round"] != int(r):

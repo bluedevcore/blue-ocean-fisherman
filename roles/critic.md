@@ -50,3 +50,18 @@ Use WebFetch (and WebSearch if needed). If not loaded, load via ToolSearch
 ## Rules
 - Never invent anything. Do not edit evidence files, ideas.jsonl or state.json. Do not run git.
 - Your final message: ONE line only, e.g. "DONE: 10 critiques; top R01-B-04=83".
+
+## If WebFetch is blocked by the network policy
+(Added at Round 0, 2026-11-05: the session's network policy currently blocks page fetching —
+WebFetch returns ENOTFOUND / "outside the session's allowed network domains".)
+1. Still TRY to fetch at least 3 URLs per idea. If the fetch is blocked by the network,
+   record `blocked` for that attempt (don't keep retrying more than ~3 blocked hosts per idea).
+2. Then do a SEARCH-BASED CHECK of each of those URLs: WebSearch for the page's title and/or
+   the exact claimed figure/phrase. Record a second entry for the same URL with result:
+   - `search-confirmed` — results show that same URL (or same page on the same domain) with a
+     snippet that supports the claim
+   - `mismatch` — results show the page but the snippet contradicts the claim (→ rule 4 above)
+   - `unconfirmed` — you can't find the page or the claim in search results
+3. `search-confirmed` is NOT fetch-verification. It does not count towards the 3 fetched-`ok`
+   URLs required for acceptance. Never record `ok` unless you actually fetched the page.
+4. Score the criteria normally on the evidence; `unconfirmed` alone is not proof of fabrication.
