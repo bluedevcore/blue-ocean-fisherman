@@ -1,0 +1,30 @@
+{
+  "A": [
+    "Animal care – kennels, catteries, vets, rescue",
+    "Pharmacies, dispensing & vaccine storage",
+    "Waste management & recycling",
+    "Motor trade – garages, dealerships, vehicle storage",
+    "Hospitality – hotels, B&Bs, holiday lets"
+  ],
+  "B": [
+    "Water & wastewater utilities",
+    "Grain stores, feed mills & bulk storage silos",
+    "Mining & quarrying",
+    "Events, festivals & temporary venues",
+    "Education – schools, colleges, universities"
+  ],
+  "C": [
+    "Commercial laundry, cleaning & washroom services",
+    "Funeral services & mortuaries",
+    "Renewable energy – solar, wind, battery storage",
+    "Care homes & assisted living",
+    "Ports, shipping containers & freight terminals"
+  ],
+  "D": [
+    "Retail – shops & supermarkets",
+    "Museums, archives, galleries & heritage buildings",
+    "Equine – stables, yards, horse transport",
+    "Dental, GP & veterinary practices",
+    "Food & drink manufacturing"
+  ]
+}
