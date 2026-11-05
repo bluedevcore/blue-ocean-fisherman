@@ -1,7 +1,7 @@
 {
-  "round": 0,
+  "round": 1,
   "accepted": [],
-  "last_completed_step": "round0-rubric",
+  "last_completed_step": "mine-dispatched",
   "source_type_yield": {
     "S1": {
       "signals": 0,
@@ -60,7 +60,7 @@
       "accepted": 0
     }
   },
-  "notes_for_miners": "",
+  "notes_for_miners": "Round 1: record specific pains with money attached (salary, contract value, fine, loss). Favour pains where buyers ALREADY pay (staff, outsourcers, freelancers, tenders) and where incumbents are expensive/enterprise-only or badly reviewed. Avoid categories known to be well served (from v1: legionella temperature monitoring, HAV tags, fridge/freezer loggers, leak detection, digital rodent monitoring, transport temp loggers). Office/knowledge-work admin pains are as welcome as physical ones.",
   "sector_mined": {
     "Trades – electricians, plumbers, heating engineers": 1,
     "Building maintenance & facilities management": 1,
@@ -130,5 +130,5 @@
     "Self-storage": 0
   },
   "total_signals": 0,
-  "total_problems": 0
+  "total_problems": 15
 }
