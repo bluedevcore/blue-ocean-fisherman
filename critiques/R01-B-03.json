@@ -1,0 +1,26 @@
+{"id": "R01-B-03",
+ "criterion_scores": {"c1": 4, "c2": 8, "c3": 7, "c4": 9, "c5": 5, "c6": 7, "c7": 5, "c8": 4, "c9": 7, "c10": 9},
+ "justifications": {
+  "c1": "Only rare catastrophic money figures (Powertrain compensation £500–£180k per claimant, £1m shared) and an HSE FFI rate of £166/hr; the routine cost of a drifted sump is small (disposal ~£0.20/litre, US $0.10–0.90/gal, half-hour labour) and the idea's £500–£2k per recharge is explicitly unconfirmed.",
+  "c2": "HSE guidance requires weekly concentration, pH and bacteria checks per sump (HSE ebulletin search-confirmed, MW5, Scottish Engineering), and the 2023–24 HSE campaign found skipped fluid checks a common failing; a conductivity probe proxies only part of that weekly check (no bacteria).",
+  "c3": "Documented weekly user checks and paid supplier fluid-management services (Fuchs, Oemeta on-site technician, QH FLUIDCARE, Millers), but no labour or contract cost found, and the manual tool is a <$20 refractometer.",
+  "c4": "HSE COSHH essentials MW5 and HSE ebulletin set weekly checks; UKLA/HSE guide says check records retained 5 years; HSE's 2023–24 national campaign (press release search-confirmed) found failings at over half of sites with enforcement action, plus Powertrain improvement notices.",
+  "c5": "No job advert or role description names the production or H&S manager as budget holder for coolant monitoring; budget is shown only indirectly via supplier fluid-care technician roles.",
+  "c6": "MWF suppliers (Fuchs, Oemeta, Quaker Houghton, Master Fluids) and MRO distributors (MSC, Cromwell) already visit and sell fluid-management services including concentration/conductivity testing; no evidence they resell sensor monitoring.",
+  "c7": "Comparable systems exist (FullShop Gen 3 subscription, search-confirmed but unpriced and North America only; Liquidtool; Okuma OEM) but no prices, customer counts or complaints; the UK per-sump gap is asserted from absence.",
+  "c8": "Material sensing risk: conductivity is only a concentration proxy, refractometer errors of 30–40% are cited, and commercial systems draw samples to an external refractometer to avoid in-sump fouling (search also found FullShop's FAQ saying sump conditions foul inline sensors); no probe price searched.",
+  "c9": "Weekly checks with 5-year record retention give a structural reason, and FullShop Gen 3 is sold as a subscription (search-confirmed), but no subscription price is evidenced.",
+  "c10": "Three source types: regulator (HSE press release, HSENI campaign), trade press (British Safety Council, AM Online, Lubes'n'Greases), and first-hand forum posts (Practical Machinist, Hobby-Machinist, Dallas Makerspace), though forum posts are only loosely about skipped checks."
+ },
+ "total": 65,
+ "weakest": "The money case: the routine cost of an out-of-spec sump is pennies per litre plus minutes of labour, and the only large figures come from a once-in-decades outbreak (Powertrain), so loss per site is unlikely to reach 5x product TCO.",
+ "verified_urls": [
+  {"url": "https://press.hse.gov.uk/?p=5731", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://press.hse.gov.uk/?p=5731", "result": "search-confirmed", "note": "Search returns this HSE press release 'Most businesses inspected not doing enough'; more than half of inspections found failings, fluid-quality checks one of three common failings"},
+  {"url": "https://content.govdelivery.com/accounts/UKHSE/bulletins/38a0a37", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://content.govdelivery.com/accounts/UKHSE/bulletins/38a0a37", "result": "search-confirmed", "note": "Search returns this HSE ebulletin; snippet says concentration, pH and bacteria levels should be checked weekly"},
+  {"url": "https://manufacturingtomorrow.com/content.php?post=23334", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://manufacturingtomorrow.com/content.php?post=23334", "result": "search-confirmed", "note": "Search returns this URL; FullShop Gen 3 to be available as a subscription service; sump sensors for temperature, level, concentration; no price"}
+ ],
+ "distinct_credible_urls": 44,
+ "summary": "Strong HSE weekly-check guidance and recent enforcement campaign, but routine sump-drift cost is tiny, in-sump sensing is technically fragile, and competitor pricing is absent; 65/100, not acceptable."}

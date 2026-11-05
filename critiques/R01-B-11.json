@@ -1,0 +1,26 @@
+{"id": "R01-B-11",
+ "criterion_scores": {"c1": 7, "c2": 9, "c3": 7, "c4": 9, "c5": 6, "c6": 8, "c7": 5, "c8": 4, "c9": 6, "c10": 8},
+ "justifications": {
+  "c1": "Large independent figures for sprinkler failure in warehouses (Primark ~£50m claim, search-confirmed; ASOS £22m stock; US $7M fire with coverage barred), but these are rare per site and none is tied to a skipped weekly pump test (Primark coverage points to a burst sprinkler supply pipe).",
+  "c2": "Weekly pump test required per pump set under BS EN 12845 clause 20 and LPC TB203 (FPA page search-confirmed), echoed by Allianz and Ecclesiastical test cards and the BIF27 guide; about 52 tests per site per year, so value is demonstrable in a pilot.",
+  "c3": "Documented paper test cards (Allianz, Ecclesiastical), FRS and school logbooks, and digital checklists (SafetyCulture, MaintainX) with 15–30 minute runs; Hampshire CC weighed in-house vs contractor cost but no £ or hours figure is given, and the sensor records rather than removes the pump run.",
+  "c4": "BS EN 12845/TB203 mandate weekly tests and records; BAFSA (search-confirmed) says insurers impose warranties or conditions precedent, with claim refusals in Frankenmuth (7th Cir. 2023), Garvin St. (Ind. 2026) and the unnamed Magna Park 2005 case; US cases are a geography mismatch and turn on unreported impairment, not missing logs.",
+  "c5": "One rotating job listing puts 'fire pump performance testing, sprinkler weekly bell testing' in an FM/duty-engineer role; no budget ownership evidenced, and the landlord vs tenant split is unresolved.",
+  "c6": "LPS 1048 maintenance contractors visit at least quarterly, insurers issue the test cards, and pump OEMs sell remote fire-pump monitoring via service networks (SPP FireEye in Europe, Peerless FireConnect via Cougar Industries UK); vendor-sourced only.",
+  "c7": "OEM monitors (SPP FireEye, Peerless FireConnect, Armstrong) and checklist software exist but with no prices, customer counts or complaints; the brand-neutral retrofit gap is asserted, and FM 1330 raises the bar for entrants.",
+  "c8": "Parts exist (EM500-UDL €265–US$430, EM300-DI €64–120, CT310 unpriced, pressure node unpriced), so the kit runs to several hundred euros, and the file flags that FM 1330 approval or insurer/LPC acceptance may be needed before it replaces the manual log, a life-safety certification hurdle.",
+  "c9": "Strong structural duty (weekly, quarterly and annual BS EN 12845/TB203 obligations plus insurer conditions at renewal), but no comparable subscription price is evidenced for FireEye, FireConnect or the checklist apps.",
+  "c10": "Trade press (Retail Week, IFSEC), BAFSA fire statistics (59 fires, 17 operated), insurance-law commentary and US appellate decisions on claim denial; no UK first-hand complaint about skipped tests found."
+ },
+ "total": 69,
+ "weakest": "Buildability and approval: a multi-sensor kit of several hundred euros that may need FM 1330 or insurer/LPC acceptance before it can stand in for the manual weekly log on a life-safety system.",
+ "verified_urls": [
+  {"url": "https://www.thefpa.co.uk/advice-and-guidance/advice-and-guidance-articles/sprinkler-pump-maintenance-requirements", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.thefpa.co.uk/advice-and-guidance/advice-and-guidance-articles/sprinkler-pump-maintenance-requirements", "result": "search-confirmed", "note": "Search returns this FPA page; weekly pump checks required under BS EN 12845 clause 20 and LPC TB203 confirmed; the 30-minute diesel figure was not visible in snippets (QBE guide says ≥20 min)"},
+  {"url": "https://www.retail-week.com/primark-seeks-and16350m-in-damages-for-distribution-centre-fire/1845038.article", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.retail-week.com/primark-seeks-and16350m-in-damages-for-distribution-centre-fire/1845038.article", "result": "search-confirmed", "note": "Search returns this URL; Primark seeking ~£50m three years after Leicestershire DC fire, half its stock lost in 15 minutes; sprinkler link (burst supply pipe) comes from other coverage, not this snippet"},
+  {"url": "https://www.bafsa.org.uk/sprinkler-news/news/sprinkler-system-maintenance", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.bafsa.org.uk/sprinkler-news/news/sprinkler-system-maintenance", "result": "search-confirmed", "note": "Search returns this BAFSA page; Magna Park Lutterworth Nov 2005 fire, insurers relied on impairment-notification exclusion confirmed on appeal; condition-precedent language confirmed; case unnamed"}
+ ],
+ "distinct_credible_urls": 42,
+ "summary": "Strong weekly-test mandate and insurer-condition story with OEM monitoring already sold via service networks, but unpriced competition, unproven gap, a costly multi-sensor kit and a likely approval hurdle; 69/100."}

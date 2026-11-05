@@ -1,0 +1,26 @@
+{"id": "R01-B-08",
+ "criterion_scores": {"c1": 7, "c2": 5, "c3": 3, "c4": 8, "c5": 4, "c6": 5, "c7": 2, "c8": 5, "c9": 5, "c10": 9},
+ "justifications": {
+  "c1": "Independent UK figures ≥£5k: Inova Stone (worktop maker) fined £60k + £7,363 costs (search-confirmed across kbbreview, HSE, Plant Services, Slough Express), Stoneworld £30k, Warmsworth £18k, plus HSE stop-work orders in 2026; civil awards (£3.5m, >£400k) are not engineered stone, and none of the fines is shown to turn on water suppression being off.",
+  "c2": "HSE plans 1,000+ fabricator visits in 2026 (roughly one inspection per site per year) and Thorax cases 'reported dry-cutting', but the file records no data on how often water is off during cuts and no required monthly or weekly check.",
+  "c3": "File states no workshop logs water-on time today and the control is observation and inspection; only free supplier training (Caesarstone, Cosentino) exists, so the sensor adds a new cost rather than replacing one.",
+  "c4": "HSE May 2026 engineered-stone COSHH guidance rules out dry cutting, with a 1,000-visit campaign and stop-work notices (press release search-confirmed), plus Inova prosecution and a Victorian prosecution over wet cutting; but no rule requiring records of water-suppression use is cited.",
+  "c5": "Buyers are small fabricator owners with limited budgets (Thorax: 'small companies'); no job advert or role description evidences a budget holder, and the universe is only ~650 UK fabricators.",
+  "c6": "Slab suppliers (Caesarstone Master of Stone, Cosentino) push safety training to fabricators, but there is no evidence they or any dealer sell or bundle monitoring technology; machinery dealers and fit-testers were not searched.",
+  "c7": "No comparable product, price or paying customer found (one query, 'none surfaced'); dust-monitor prices not found, so willingness to pay is entirely unevidenced.",
+  "c8": "Off-the-shelf LoRaWAN flow sensors (~€54–79 per search, file cites €59) and EM300-DI (€64–120) exist, but the per-tool BOM with a CT node exceeds ~£100, and slurry recycling plus hand tools on flexible hoses create fouling and bypass risk.",
+  "c9": "Inspections recur and silicosis claims have long latency, so a record has some ongoing value, but there is no record-keeping duty for water use and no comparable subscription pricing.",
+  "c10": "Regulator releases (HSE ?p=8009, ?p=8215), trade press (Stone World, Stone Specialist, kbbreview), NHS/Thorax case series, APPG report, and claimant-firm claim pages and client stories (Leigh Day, Irwin Mitchell, Thompsons)."
+ },
+ "total": 53,
+ "weakest": "No evidence anyone pays for anything similar: no flow-proving or dry-cutting monitor product, price or customer was found, and no existing paid workaround is being replaced.",
+ "verified_urls": [
+  {"url": "https://www.kbbreview.com/73299/news/slough-fabricator-served-hefty-fine-over-silica-breaches/", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.kbbreview.com/73299/news/slough-fabricator-served-hefty-fine-over-silica-breaches/", "result": "search-confirmed", "note": "Search shows kbbreview ?p=73299 'Slough fabricator served hefty fine over silica breaches'; multiple outlets confirm £60,000 fine, £7,363 costs, Staines 20 May 2025, nine visits over six years, four improvement notices"},
+  {"url": "https://press.hse.gov.uk/?p=8009", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://press.hse.gov.uk/?p=8009", "result": "search-confirmed", "note": "Search returns this exact URL 'HSE says no dry cutting of engineered stone ahead of inspection crackdown'; 1,000+ fabricator visits in 2026 confirmed"},
+  {"url": "https://invibitshop.com/collections/door-water-metering/wireless-protocol_lorawan", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://invibitshop.com/collections/door-water-metering/wireless-protocol_lorawan", "result": "unconfirmed", "note": "Collection page not surfaced; Invibit's SW3L-LB-006 3/4\" EU868 product page shows €66, not €59, though other EU resellers list €53.85–€79.20, so the magnitude holds"}
+ ],
+ "distinct_credible_urls": 45,
+ "summary": "Very strong, current UK regulatory and enforcement pressure, but no competitor or willingness-to-pay evidence, no existing workaround to replace, and small cost-sensitive buyers; 53/100."}
