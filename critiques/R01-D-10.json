@@ -1,0 +1,26 @@
+{"id": "R01-D-10",
+ "criterion_scores": {"c1": 8, "c2": 9, "c3": 8, "c4": 9, "c5": 6, "c6": 8, "c7": 6, "c8": 5, "c9": 7, "c10": 8},
+ "justifications": {
+  "c1": "Several independent niche figures ≥£5k: Piperdam lodge hot tub death £120k fine (search-confirmed), Dundee hotel hot-tub outbreak £54k, JTF display hot tub £1m; recurring labour cost is evidenced by dedicated hot-tub staff at £13.10/hr (the £26,208 figure is unconfirmed); payback within 12 months is not shown.",
+  "c2": "Twice-daily disinfectant/pH testing during commercial use, from HSG282 summaries (Hanna, vendor), Pool & Spa Scene trade press (search-confirmed) and park job adverts (Finlake, Tregoad), plus changeover cleaning; demonstrable within weeks.",
+  "c3": "Quantified labour and contractor cost: dedicated park hot-tub staff (£13.10/hr Finlake; Crealy £12.30/hr), a £120+VAT per-changeover contractor package, and changeovers that 'take hours'; the sensor cuts routine testing but not drain-and-clean labour.",
+  "c4": "HSG282 covers hot tubs hired to successive users including holiday lets, councils publish monitoring record sheets and guidance (East Ayrshire, East Suffolk), and prosecutions exist in the niche (Piperdam lodge hot tub via Crown Office; Dundee £54k; JTF £1m by HSE); the HSG282 text and 5-year retention come only via secondary sources.",
+  "c5": "Multi-park operators (Haulfryn, Waterside) employ dedicated hot-tub technicians, showing a labour budget, but the budget-holding title (operations or maintenance manager) is not evidenced.",
+  "c6": "Hot-tub service firms sell care plans and resell monitors (Happy Hot Tubs: iCare monitor, iopool holiday-let case study), and suppliers target holiday parks with monitoring and dosing (Park Leisure Solutions, Sunbeach).",
+  "c7": "Willingness to pay is shown by subscriptions (pHin), brand systems (Hot Spring, Watkins, Arctic Spas, Gecko) and Park Leisure Solutions' holiday-park dosing monitor, but no prices are given; the gap (B&Q Smart Pod 'not recommended for holiday lets'; no brand-agnostic multi-tub HSG282 log product) is partly inferred.",
+  "c8": "ORP/pH probes drift, need recalibration every 3–6 months and last ~9–24 months at $30–$580 each, a floating pod sits in chemically treated hot water, and LTE-M and enclosure costs were not searched; probe upkeep across dozens of tubs is a real opex risk.",
+  "c9": "Twice-daily testing and record-keeping recur on every operating day, with 5-year retention (secondary), probes as consumables, and pHin's monitoring subscription, but no subscription price is evidenced.",
+  "c10": "Prosecutions and outbreaks (Scotsman, SHP, STV), industry body news (PWTAG on Dylan Coastal Resort and the Dartmoor View children), national news (ITV Wales, LADbible first-hand rash report) and peer-reviewed literature (PubMed); no forum or review complaints."
+ },
+ "total": 74,
+ "weakest": "Buildability and opex: in-water ORP/pH probes drift, need recalibration every few months and replacement every 1–2 years at up to ~$580 OEM, so upkeep across dozens of tubs may eat the labour saved, and a manual check is likely still needed.",
+ "verified_urls": [
+  {"url": "https://www.scotsman.com/news/golf-resort-given-ps120000-fine-after-visitor-dies-legionnaires-disease-1680997", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.scotsman.com/news/golf-resort-given-ps120000-fine-after-visitor-dies-legionnaires-disease-1680997", "result": "search-confirmed", "note": "Search returns this URL; Piperdam resort fined £120,000 at Forfar Sheriff Court, guest died 2008 after staying at a lodge, Legionella strain found in hot tub and two showerheads"},
+  {"url": "https://www.poolandspascene.com/hot-tubs-spas/real-time-monitoring-for-holiday-spas", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.poolandspascene.com/hot-tubs-spas/real-time-monitoring-for-holiday-spas", "result": "search-confirmed", "note": "Search confirms Park Leisure Solutions auto-fill/dosing with Climacube for holiday parks and the HSE twice-daily chemical/pH monitoring reference; promotional, undated"},
+  {"url": "https://www.jobleads.com/gb/job/hot-tub-maintenance-person--westbury--eaa9002e3bd8c5317eb64025705dfb05c", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.jobleads.com/gb/job/hot-tub-maintenance-person--westbury--eaa9002e3bd8c5317eb64025705dfb05c", "result": "unconfirmed", "note": "This listing did not surface; a Haulfryn Brokerswood hot-tub listing on Harri shows £13.10/hr, 40 hrs/wk, with no £26,208 figure or twice-daily wording visible"}
+ ],
+ "distinct_credible_urls": 42,
+ "summary": "The strongest of this batch: daily testing duty, quantified labour, niche prosecutions and a channel, held back by probe drift and opex, unpriced competitors and an unconfirmed budget holder; 74/100."}

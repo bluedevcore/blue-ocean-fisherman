@@ -1,0 +1,26 @@
+{"id": "R01-D-11",
+ "criterion_scores": {"c1": 4, "c2": 5, "c3": 5, "c4": 5, "c5": 6, "c6": 8, "c7": 3, "c8": 5, "c9": 5, "c10": 6},
+ "justifications": {
+  "c1": "No UK figure for a chemical run-out closure; the only totals are planned multi-day closures (Whiterock £6,800, Valley £4,290) and an Australian $17k/day, plus qualitative lesson refunds, so the per-incident loss for a one-morning delay is unquantified.",
+  "c2": "The file found no UK closure caused by a drum or IBC running dry; related closures (Southampton overnight dosing error, search-confirmed; Selkirk low chlorine; 2022 national shortage) exist but no run-out rate, and the daily plant-room check is only from one job advert.",
+  "c3": "Visual stock checks on plant-room rounds, weekly multi-site inspections, bulk tanks with daily deliveries, and stock transfers during the shortage are documented, but with no labour time or cost.",
+  "c4": "PWTAG Code of Practice and HSE HSG179 govern pool water treatment and operator competence, but the file found no pre-opening test frequency, record-retention wording or enforcement case, and none of it bears on chemical stock levels.",
+  "c5": "A 'Facilities & Pool Plant Manager (Multi-Site)' advert (£30–35k) evidences a role responsible for dosing systems, but not budget authority; chemicals are bought by council tender.",
+  "c6": "Chemical distributors deliver to pools (Monarch/Brenntag, Univar, Pool Pro, Woburn) and already run telemetry VMI elsewhere (Univar Remote Sentry, CGK auto-ordering), and pool dosing-equipment makers sell level-sensing lances; UK pool-specific distributor telemetry is not shown.",
+  "c7": "Level sensing is built into current pool dosing kit: ProMinent suction lance with continuous level and DULCOnneX warning/error thresholds (search-confirmed), SEKO, Dinotec, Fluidra, Grundfos, Hanna cloud, plus generic IBC radar monitors; the only price is a low-quality pages.dev page, and the retrofit gap is inference.",
+  "c8": "IBC-rated ultrasonic, submersible and external radar sensors exist (Flowline, E+H FWR30, DULCOlevel), but load-cell and LTE-M prices were not searched, and the hypochlorite/acid plant room is a corrosive environment.",
+  "c9": "Chemical consumption and resupply recur and distributors monetise VMI telemetry, but there is no record-keeping duty tied to stock, and subscription pricing comes only from a single low-quality page (£30/mo).",
+  "c10": "PWTAG news (search-confirmed), council notices (Hartlepool, Brighton & Hove) and local press (York, Blackpool, Bridlington) document chemical-related closures, but nearly all concern the 2022 national shortage, which a level sensor would not fix."
+ },
+ "total": 52,
+ "weakest": "The specific failure is unevidenced and already solved: no UK pool closure from a drum running dry was found, and current dosing controllers (ProMinent, SEKO, Fluidra, Dinotec) already include level-sensing lances with cloud alarms.",
+ "verified_urls": [
+  {"url": "https://www.southampton.ac.uk/sportandwellbeing/news/2021/07/pool-closed-until-further-notice.page", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.southampton.ac.uk/sportandwellbeing/news/2021/07/pool-closed-until-further-notice.page", "result": "search-confirmed", "note": "Search returns this exact URL; pool closed until further notice because of a chemical dosing fault overnight (July 2021)"},
+  {"url": "https://pcne.eu/article/suction-lance-with-continuous-level-measurement", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://pcne.eu/article/suction-lance-with-continuous-level-measurement", "result": "search-confirmed", "note": "Search returns this URL, plus ProMinent's own press page; continuous level lance, warning at 20% and error at 5%, DULCOnneX real-time monitoring, works with sodium hypochlorite"},
+  {"url": "https://www.pwtag.org/?p=3078", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.pwtag.org/?p=3078", "result": "search-confirmed", "note": "Search returns this exact URL; 2022 national chlorine shortage forcing some UK public pools to close"}
+ ],
+ "distinct_credible_urls": 40,
+ "summary": "Real chemical-related pool closures, but none from a drum running dry, money and frequency unsourced, and level alarms already built into modern dosing controllers; 52/100."}

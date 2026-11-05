@@ -1,0 +1,26 @@
+{"id": "R01-C-33",
+ "criterion_scores": {"c1": 2, "c2": 4, "c3": 6, "c4": 4, "c5": 5, "c6": 6, "c7": 3, "c8": 5, "c9": 3, "c10": 5},
+ "justifications": {
+  "c1": "No sourced cost for a housing-PTP blower failure incident; the only per-incident money is a replacement blower at ~£309–371 (retailer, attribution inferred), and the Anglian Water £156k case is water-company scale and not comparable.",
+  "c2": "No blower failure rate found; servicing is annual or six-monthly, with quarterly in some landlord contracts (Eastlight, attribution inferred), and the sensor does not replace that servicing.",
+  "c3": "Paid multi-site servicing and desludging contracts are documented with values (Stonewater £780k est., search-confirmed; Connexus £120k; Eastlight ~£90k/yr), but the sensor would not remove them, and the blower-failure workaround is resident complaints or local alarms.",
+  "c4": "The file itself shows the 2014 EPR amendment removed registration and 5-year maintenance-record duties (search-confirmed via IEMA and the consultation), alarms are 'not a legal requirement', and no EA enforcement against a housing association PTP was found; GBRs only say 'don't pollute'.",
+  "c5": "Housing associations buy through formal tenders with named budgets, but no job title or budget holder is evidenced and the route is public procurement.",
+  "c6": "Service contractors (CSG, Premier Tech, Bates, Mayglothling) visit on a cycle and Premier Tech runs 24/7 call-out for a national housing association, but none is shown selling or bundling remote monitoring.",
+  "c7": "Commoditised: on-site blower low-pressure alarms (Envirosure 100), GSM blower alarms (ASIO AS-GSM, Bonnel Sequetrol, Barnett Protalk), and Cotterill SmartServ Pro £564; the claimed fleet-dashboard gap is inferred from absence, and the £41.95 Envirosure price was mismatched (it is the beacon's price).",
+  "c8": "Pressure-switch blower-fail detection is established and mains power is on site, but no prices for the proposed NB-IoT/LTE-M build were searched, rural mobile coverage is flagged as a precondition (ASIO), and plant warranties may restrict fitting; the cited £41.95 component price is mismatched.",
+  "c9": "No statutory record-keeping duty since 2014 (the file's own key finding), so recurring value rests only on existing service contracts; no comparable subscription pricing.",
+  "c10": "One Housing Ombudsman case (Onward Homes, content on blower failure not shown), a Paignton holiday-park EA case via a fishing site, and two Irish local-news items; no trade press or regulator data on housing PTP failures."
+ },
+ "total": 43,
+ "weakest": "Compliance hook removed: since 2014, English small-sewage-discharge operators need not keep maintenance records, and cheap blower-failure and GSM alarms already exist, so there is neither a records duty nor an evidenced gap to fill.",
+ "verified_urls": [
+  {"url": "https://legislation.gov.uk/uksi/2014/2852/pdfs/uksiod_20142852_en.pdf", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://legislation.gov.uk/uksi/2014/2852/pdfs/uksiod_20142852_en.pdf", "result": "search-confirmed", "note": "Search returns this exact URL; the SI removes registration requirements from 1 Jan 2015, and IEMA and the consultation response list removal of 5-year maintenance records"},
+  {"url": "https://tanks-direct.co.uk/charles-austen-envirosure-100-low-pressure-alarm/p42272", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://tanks-direct.co.uk/charles-austen-envirosure-100-low-pressure-alarm/p42272", "result": "mismatch", "note": "Page exists and describes the alarm as 'perfect for detecting if a blower in a sewage system is failing', but £41.95 ex VAT is the price of the separate Envirosure Beacon on that page, not the Envirosure 100 alarm"},
+  {"url": "https://www.find-tender.service.gov.uk/Notice/013648-2023", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.find-tender.service.gov.uk/Notice/013648-2023", "result": "search-confirmed", "note": "Search confirms Stonewater 'Sewage & Drainage (South)' notice: servicing, repair and desludging of sewage treatment works, est. £780,000 ex VAT, May 2023"}
+ ],
+ "distinct_credible_urls": 30,
+ "summary": "Good channel (housing-association service contracts), but no incident cost or failure rate, the record-keeping duty was abolished in 2014, cheap GSM alarms exist, and one key price was mismatched; 43/100."}

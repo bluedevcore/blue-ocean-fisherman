@@ -1,0 +1,26 @@
+{"id": "R01-C-36",
+ "criterion_scores": {"c1": 6, "c2": 7, "c3": 7, "c4": 9, "c5": 6, "c6": 7, "c7": 3, "c8": 5, "c9": 6, "c10": 8},
+ "justifications": {
+  "c1": "Testing spend is the main cost: ~£1,000/yr for a six-flat block (Safelincs leaseholder post, search-confirmed), £50.99/visit (low-credibility pages.dev contractor site with self-conflicting prices), Whitecroft '£3,000/yr' (vendor); fines exist (Morecambe £4,500 for unmaintained emergency lighting, £22.5k total, search-confirmed), but annual saving per small block (~£600–1,200) is unlikely to reach 5x TCO of relay plus per-fitting tags.",
+  "c2": "Monthly functional test mandated per BS 5266/BS EN 50172 (FPA, forum, LBBD monthly test document, Longhurst policy), so 1–3 tests in a pilot; not weekly or daily.",
+  "c3": "Paid monthly contracts are documented and quantified (PA Housing monthly service contract, £1,000/yr forum post, £50.99/visit), but the file also shows a caretaker with a fish key can test without qualification, weakening the 'contractor visit is unavoidable' premise.",
+  "c4": "FSO 2005 Art 17 maintenance duty, BS 5266 in common parts (TPI, GOV.UK purpose-built flats guide), and enforcement in residential premises: Morecambe prosecution specifically for emergency-lighting maintenance (search-confirmed), LFB enforcement notices, Bedford £40k (office), Lincolnshire FOI on emergency-lighting enforcement.",
+  "c5": "Responsible Person is the freeholder, managing agent or housing association, and testing is a monthly service-charge line (PA Housing), but no job title or budget holder is evidenced and cost is passed through to leaseholders.",
+  "c6": "Fire/electrical contractors already visit monthly, and the FIA promotes LuxIntelligent retrofit automated-testing savings to its members, showing the channel sells adjacent automated testing.",
+  "c7": "Cheap good-enough substitute: self-test fittings cost about £8 more than standard (Lyco £36.99 vs £28.99; SparksDirect £15 ex VAT), plus LuxIntelligent, Hochiki Nepto, EMC and mobile-managed testing; no subscription prices and the retrofit gap is inference.",
+  "c8": "Fish-key test circuits give an attach point, but a relay on a fixed lighting circuit is electrician work under BS 7671, a photodiode tag is needed on every fitting, and no component prices were searched.",
+  "c9": "Monthly testing and a logbook recur for the building's life (logbook duty sourced only to a low-credibility pages.dev guide), and landlords pay monthly contracts, but no comparable subscription price exists (Hochiki's cloud service only 'in development').",
+  "c10": "Leaseholder forum complaint about cost (Safelincs), enforcement cases and notices (Morecambe, Bedford, LFB, Lincolnshire FOI), and trade press (FPA, Landlord Today, FIA); several items are title-only and the first-hand pain is a single post."
+ },
+ "total": 64,
+ "weakest": "Cheap substitutes: £8-premium self-test fittings plus an unqualified caretaker with a fish key already meet the monthly test, so a relay-plus-per-fitting-tag retrofit saves at most ~£600–1,200 a year per small block.",
+ "verified_urls": [
+  {"url": "https://www.landlordtoday.co.uk/news_features/Lancashire-landlord-who-ignored-enforcement-notice-ordered-to-pay-%C2%A322-500", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.landlordtoday.co.uk/news_features/Lancashire-landlord-who-ignored-enforcement-notice-ordered-to-pay-%C2%A322-500", "result": "search-confirmed", "note": "Search returns this URL; Eli Zohar, Morecambe, fined £10,500 (£4,500 for emergency lighting not subject to a suitable system of maintenance, £6,000 for ignoring an enforcement notice) plus £12,000 costs, Jan 2015"},
+  {"url": "https://www.safelincs-forum.co.uk/topic/4790-emergency-lighting-testing-costs/", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.safelincs-forum.co.uk/topic/4790-emergency-lighting-testing-costs/", "result": "search-confirmed", "note": "Search confirms the thread: six-flat block, housing association wants about £1000/yr inc VAT for monthly and annual tests"},
+  {"url": "https://electrical-london.pages.dev/emergency-lighting-london", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://electrical-london.pages.dev/emergency-lighting-london", "result": "search-confirmed", "note": "Search confirms £50.99 function test (up to 10 fittings), £89.99 annual, £3 per extra fitting; the site's blog conflicts, and the pages.dev hosting makes it low-credibility"}
+ ],
+ "distinct_credible_urls": 32,
+ "summary": "Well-evidenced monthly test duty with residential enforcement, but the money saved per small block is small and cheap self-test fittings plus a caretaker already do the job; 64/100."}

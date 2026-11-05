@@ -1,0 +1,26 @@
+{"id": "R01-D-18",
+ "criterion_scores": {"c1": 6, "c2": 9, "c3": 7, "c4": 9, "c5": 6, "c6": 8, "c7": 4, "c8": 6, "c9": 6, "c10": 8},
+ "justifications": {
+  "c1": "One niche figure: Tendring leisure-centre shower Legionella case, £27k fine + ~£7.2k costs (search-confirmed); larger fines (£900k Sanctuary, £600k Amey) are housing and prisons; flushing labour and contractor monitoring cost are unquantified, so loss vs TCO of £168-per-pipe sensors is not shown.",
+  "c2": "HSE's own page (search-confirmed) sets monthly sentinel temperature checks and weekly flushing of infrequently used outlets, corroborated by the Redditch log book, DIO guidance and NI sports-centre weekly flushing rounds; caveat that HSG274 does not define 'little use'.",
+  "c3": "Documented weekly staff flushing rounds, monthly contractor sentinel checks (LiveWest), weekly staff travel to sports-centre sites (Londonderry Sentinel) and paper records, but no minutes, hours or per-outlet contractor price found.",
+  "c4": "HSE L8/HSG274 web guidance requires monthly checks and recording (primary, search-confirmed), with 5-year retention from secondary sources; enforcement in the niche: Tendring leisure-centre showers prosecution, HSE 2025 Legionella prosecutions deck, care-home case citing poor flushing of little-used outlets.",
+  "c5": "Legionella compliance roles are evidenced with salaries (KCL £54–63k, Estates Legionella Manager £37–44k, Waverley compliance officer), but none at a leisure operator and none states purchasing budget.",
+  "c6": "Water-hygiene contractors visit monthly (LiveWest) and already sell remote pipe-temperature monitoring (PTSG Water RTM 2026, SOCOTEC ClipR), and chemical firms partner with sensor makers (Sontay/H2O); these channels double as competitors.",
+  "c7": "Crowded: Nano Sensorics (£168), SPICA, Invisible Systems, aquavision aquaflush, Connexin, InferSens, TEKTELIC, Checkit, PTSG, SOCOTEC, and Sfella and CreevX already target sports-centre showers specifically; no subscription prices and the leisure-package gap is inference.",
+  "c8": "Off-the-shelf LoRaWAN pipe sensors exist (Nano Sensorics £168 each, search-confirmed single listing, 10-yr battery claimed) and four-pipe nodes cut per-outlet cost, but the per-outlet BOM is above ~£50 and HSE acceptance of pipe-surface sensing is unconfirmed.",
+  "c9": "Weekly flushing and monthly checks recur for the building's life, with 5-year records (secondary) and existing monthly contractor spend, but no comparable product subscription price is evidenced.",
+  "c10": "Regulator/enforcement (HSE Tendring prosecution, BOHS deck), news (ITV Channel Les Quennevais, Barnet Post Hampstead Heath, Kent Online Hythe) and trade press (PWTAG, PFM, Health Club Management); no first-hand forum or review complaints."
+ },
+ "total": 69,
+ "weakest": "Crowded and contractor-owned: a dozen pipe-temperature vendors exist, Sfella and CreevX already pitch sports-centre showers, and the water-hygiene contractors who would be the channel (PTSG, SOCOTEC) sell their own sensors.",
+ "verified_urls": [
+  {"url": "https://www.hse.gov.uk/legionnaires/things-to-consider.htm", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.hse.gov.uk/legionnaires/things-to-consider.htm", "result": "search-confirmed", "note": "Search returns this exact HSE URL; monthly sentinel outlet checks, cold <20°C after 2 min, ≥50°C at TMV inlet within 1 min, record findings, weekly flushing of infrequently used outlets"},
+  {"url": "https://www.localgovernmentlawyer.co.uk/property/404-property-news/39480-2018-12-07-12-40-14", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.localgovernmentlawyer.co.uk/property/404-property-news/39480-2018-12-07-12-40-14", "result": "search-confirmed", "note": "Search returns this URL; Tendring DC fined £27k after a customer at Walton-on-the-Naze leisure centre contracted Legionnaires', men's shower positive; 'lack of monitoring' wording not visible in snippets (failings described as risk assessments and control measures)"},
+  {"url": "https://css.propeldigital.com/?p=422425", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://css.propeldigital.com/?p=422425", "result": "search-confirmed", "note": "Search returns this reseller listing: Nano Sensorics LEGIONELLA LoRaWAN pipe temperature sensor at GBP 168.0, batteries not included"}
+ ],
+ "distinct_credible_urls": 39,
+ "summary": "Strong HSE weekly/monthly duty with a leisure-centre prosecution and a contractor channel, but the category is crowded (including sports-centre-specific rivals), cost of labour is unquantified and sensors cost ~£168 each; 69/100."}
