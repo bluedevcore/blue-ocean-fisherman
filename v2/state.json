@@ -1,7 +1,7 @@
 {
   "round": 1,
   "accepted": [],
-  "last_completed_step": "cluster",
+  "last_completed_step": "round1-cluster",
   "source_type_yield": {
     "S1": {
       "signals": 58,
@@ -130,5 +130,37 @@
     "Self-storage": 0
   },
   "total_signals": 414,
-  "total_problems": 181
+  "total_problems": 181,
+  "paused": true,
+  "resume_point": {
+    "summary": "v2 paused after Round 1 CLUSTER/SELECT (paused by user). Next step: Round 1 step 3 RESEARCH & SHAPE.",
+    "candidates_to_research": [
+      "R01-V-01",
+      "R01-V-02",
+      "R01-V-03",
+      "R01-V-04",
+      "R01-V-05",
+      "R01-V-06",
+      "R01-V-07",
+      "R01-V-08",
+      "R01-V-09",
+      "R01-V-10",
+      "R01-V-11",
+      "R01-V-12",
+      "R01-V-13",
+      "R01-V-14",
+      "R01-V-15",
+      "R01-P-038",
+      "R01-P-090",
+      "R01-P-154"
+    ],
+    "already_written": {
+      "v2/evidence/R01-V-01.md": "written by research batch 1 before the pause (51 URLs, has Sources section) - spot-check it is complete, then skip re-researching it"
+    },
+    "research_batches_file": "v2/work/r01/research.json",
+    "dispatch_plan": "One wave (search budget ~200/turn): batch 1 = R01-V-02..V-05 (V-01 done), batch 2 = R01-V-06..V-10, batch 3 = R01-V-11..V-15, batch 4 = R01-P-038, R01-P-090, R01-P-154. Cap 9 searches/problem for V-imports, 12 for P-problems. Use the same prompts as the stopped wave: researchers reuse v1/evidence and v1/critiques for from_v1 imports and must find >=3 distinct S-types.",
+    "then": "python3 v2/tools/bof.py researched 1 -> JUDGE (critics, 8 problems each, <=4 searches/problem) -> scored 1 -> KILL PASS -> VALIDATION -> TARGETED MINING (65-79) -> LOG rounds/round-01.md",
+    "round2_note": "Round 2 MINE: give all 7 miners the SAME focus sectors (those of the strongest single-type pool problems listed in v2/work/r01/select.md) so re-clustering can add 2nd/3rd source types.",
+    "environment": "WebFetch blocked by network policy (ENOTFOUND) as of 2026-11-05; reddit.com rejected by WebSearch; ~200 WebSearch calls per orchestrator turn shared by all agents."
+  }
 }

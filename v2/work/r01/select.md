@@ -28,3 +28,8 @@ strongest single-type pool problems:
 - bid writing for guarding (P-046);
 - receipt capture (P-095).
 Re-clustering ALL signals can then add the 2nd and 3rd source types to these problems.
+
+## PAUSED (by user) after CLUSTER/SELECT
+- The research wave was dispatched and then stopped at the user's request.
+- Only v2/evidence/R01-V-01.md had been written (51 URLs, Sources section present).
+- Exact resume point: v2/state.json → `resume_point`.
