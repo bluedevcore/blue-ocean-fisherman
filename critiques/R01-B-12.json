@@ -1,0 +1,27 @@
+{"id": "R01-B-12",
+ "criterion_scores": {"c1": 4, "c2": 7, "c3": 6, "c4": 8, "c5": 6, "c6": 7, "c7": 4, "c8": 5, "c9": 6, "c10": 7},
+ "justifications": {
+  "c1": "Per-impact cost is vendor-only and inconsistent (FleetRabbit '$10,000 average' vs '$200–800'; Dexory title only); the one independent UK figure (Bingley collapse, £157,500 fines, search-confirmed) arose from load-testing, not an unreported impact, and no UK upright replacement price was found.",
+  "c2": "HSG76 weekly PRRS visual checks recur at every site (Warehouse News, Bureau Veritas), but impact frequency rests on unsourced vendor claims (FleetRabbit 8–12 unreported per reported, search-confirmed as vendor marketing citing no study; SafetyNow 90–95%), and the sensor supplements rather than replaces the weekly check.",
+  "c3": "Weekly PRRS checks and annual paid SARI inspections (Bureau Veritas) are documented with frequency, but no labour or £ cost (Mazzella says 'depends on size'), and the sensor removes neither.",
+  "c4": "HSG76 PRRS role with weekly checks and recording, SEMA red/amber/green with a 4-week amber-to-red rule, annual SARI inspection, and HSE racking-collapse prosecutions (2026 Bingley, 2013 Corby); none of the enforcement turns on unreported impact damage, and HSG76 is guidance cited only via trade summaries.",
+  "c5": "The PRRS is a named in-house role in HSG76 and SARI inspections are a budget line, but no job advert or role description shows PRRS or warehouse manager budget authority for monitoring.",
+  "c6": "SARI inspectors visit annually and racking-repair firms visit after damage, and rack-protector supplier A-SAFE already bundles RackEye sensors with guards; that bundler is a competitor rather than an available channel, and no SARI firm is shown selling tech.",
+  "c7": "Proven but crowded: A-SAFE RackEye (search-confirmed: SMS alerts, cloud dashboard, leased turnkey), Rack Sense, a European real-time rack monitor, Fraunhofer crash sensor, Linde truck-side sensor, drone/robot inspection; no prices and no evidenced gap.",
+  "c8": "Off-the-shelf EM320-TILT is €74.90–83 per node with 3–5 yr battery, but it is a tilt sensor not documented for shock detection (custom firmware needed), damage-vs-nuisance discrimination is the incumbent's patented core, and per-upright cost scales badly across a DC.",
+  "c9": "Weekly checks, 4-week amber deadlines and annual SARI recur, and RackEye is sold as a leased cloud service, but no subscription price is evidenced.",
+  "c10": "HSE press release and British Safety Council on collapses, trade press (Logistics Matters), Canadian employment rulings on unreported impacts, and viral collapse coverage; the unreported-impact problem itself is mainly evidenced by vendors."
+ },
+ "total": 60,
+ "weakest": "Crowded, unpriced competition: A-SAFE RackEye already delivers the same concept (rack-mounted impact sensors, SMS alerts, cloud, leasing) through its barrier channel, and no gap is evidenced.",
+ "verified_urls": [
+  {"url": "https://www.mmh.com/article/a_safes_rack_sensors_detect_communicate_and_display_impact_severity", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.mmh.com/article/a_safes_rack_sensors_detect_communicate_and_display_impact_severity", "result": "unconfirmed", "note": "MMH page did not surface in search; the same RackEye claims (rack-mounted sensors, SMS alert, cloud dashboard, leased turnkey) are confirmed via the A-SAFE datasheet and Logistics Matters ?p=18992, also cited in the file"},
+  {"url": "https://webcdn.asafe.com/media/11564/rackeye_datasheet-uk.pdf", "result": "search-confirmed", "note": "Search returns this datasheet; rack-leg sensors, gateway to cloud, SMS to management, alerts only on abnormal impacts, EN15635 inspection guidance"},
+  {"url": "https://press.hse.gov.uk/2026/02/11/two-firms-fined-after-racking-collapse-killed-two-workers/", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://press.hse.gov.uk/2026/02/11/two-firms-fined-after-racking-collapse-killed-two-workers/", "result": "search-confirmed", "note": "Search returns this exact URL; Bingley collapse during test loading, two killed, fines £97,500 + £60,000 at Leeds Crown Court 11 Feb 2026"},
+  {"url": "https://fleetrabbit.com/industry/manufacturing-fleet/why-impact-detection-matters-manufacturing-forklift-safety", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://fleetrabbit.com/industry/manufacturing-fleet/why-impact-detection-matters-manufacturing-forklift-safety", "result": "search-confirmed", "note": "Search returns this URL with '8 and 12 go unreported' per reported impact; vendor claim citing no study, and another FleetRabbit page says >60% unreported"}
+ ],
+ "distinct_credible_urls": 36,
+ "summary": "Solid HSG76/SEMA inspection framework, but cost and frequency of unreported impacts are vendor-only and A-SAFE RackEye already owns the concept; 60/100."}
