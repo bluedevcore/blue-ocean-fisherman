@@ -32,9 +32,13 @@ line `NOT RESEARCHED — search budget exhausted` so the orchestrator can re-dis
 6. Distribution channels that ALREADY visit the site (service engineers, wholesalers,
    installers, insurers' surveyors, vets, feed reps, compliance contractors…)
 7. Existing competitors — names, URLs and PRICES (hardware + subscription); who they target;
-   what reviews/complaints say about them
+   what reviews/complaints say about them. Be explicit about the GAP: is any incumbent already
+   serving this exact buyer cheaply? (Critics penalise c7 hard when a cheap incumbent exists.)
 8. Buildability — what off-the-shelf sensor/radio modules exist, indicative component prices,
-   battery life, any certification (ATEX, medical device, MCERTS, type approval, UL/CE/UKCA)
+   battery life, any certification (ATEX, medical device, MCERTS, type approval, UL/CE/UKCA).
+   ALWAYS cite at least 2 PRICED sources here (added Round 1 — critics scored c8 low without them):
+   e.g. a comparable off-the-shelf LoRaWAN/NB-IoT/LTE-M sensor with its retail price (Milesight,
+   Dragino, Elsys, Netvox, etc.), or the sensor element / radio module price from a distributor.
 9. Recurring-revenue logic — why data/alerts stay valuable after install (ongoing compliance
    records, insurer reporting, consumables, calibration)
 10. Public evidence of pain — forum threads, Reddit, trade press, reviews, regulator
