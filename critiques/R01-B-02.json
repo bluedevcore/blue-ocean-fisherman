@@ -1,0 +1,26 @@
+{"id": "R01-B-02",
+ "criterion_scores": {"c1": 6, "c2": 7, "c3": 6, "c4": 9, "c5": 5, "c6": 7, "c7": 4, "c8": 5, "c9": 6, "c10": 8},
+ "justifications": {
+  "c1": "UK fines tied to cooling towers are large and multi-sourced (Faltec £800k, search-confirmed on coolingpost; Bulmer £300k each; Chromalloy £110k), but they follow rare outbreaks or prosecutions; no sourced cost exists for the actual 'drum ran dry' event (remedial disinfection, high-TVC response), so annual loss per site vs TCO is undemonstrated.",
+  "c2": "Weekly checks of biocide ppm, dip slides and control equipment under HSG274 are cited (SPX vendor summary, corroborated by HK EMSD weekly checklist and HSE ebulletin), but there is no per-site rate of dosing outages, and the sensor only covers part of the weekly check.",
+  "c3": "Weekly site checks and monthly LCA contractor visits are documented (tenders, SPX summary), but no labour time or visit price was found; the sensor removes only the 'look at the drum/pump' part of the routine.",
+  "c4": "ACoP L8/HSG274 weekly checks and records (HSE ebulletin, SPX summary) plus NCTEC Regs 1992 (search-confirmed on legislation.gov.uk), with niche-specific enforcement: Faltec, Bulmer, Chromalloy, Isher Hangers ('operating a cooling tower without biocide'), Edinburgh improvement notice on biocide control.",
+  "c5": "Duty sits with the site operator (prosecuted firms), but no job advert or role description evidences a named title holding the water-treatment budget; the alternative buyer (water-treatment contractor) has no budget evidence either.",
+  "c6": "LCA-accredited contractors visit monthly (Contracts Finder tenders) and US chemical suppliers already bundle tank/feed telemetry with supply (StaWatch Pro search-confirmed: rep gets inventory alerts, three feed pumps); no evidence of UK contractors reselling such telemetry.",
+  "c7": "Crowded: ProMinent P-AEGIS II, JUMO controllers already log/alarm, and StaWatch/ChemREADY bundle tank telemetry; no prices found for any, and the retrofit gap is explicitly 'not evidenced'.",
+  "c8": "Off-the-shelf LoRaWAN parts exist (Milesight EM500-UDL €265–US$430 per tank, EM300-DI €64–120 per pump) but hardware runs to several hundred euros per tower, well above ~£50, and chemical-vapour compatibility near biocide tanks is unaddressed.",
+  "c9": "Weekly checks and records recur for the life of the system and chemical reorders recur, but no comparable subscription price was evidenced (StaWatch/ChemREADY pricing not found).",
+  "c10": "Enforcement cases via trade press (Cooling Post, SHP, ACR News) plus public-health outbreak reports (CSTE abstracts, NYC Harlem report) naming inadequate biocide; no first-hand forum or complaint source found, so the third source type is missing."
+ },
+ "total": 63,
+ "weakest": "Competition and gap: dosing controllers (ProMinent, JUMO) and supplier telemetry (StaWatch, ChemREADY) already alarm on chemical level and feed, no prices were found, and the claimed gap for a retrofit kit is unevidenced.",
+ "verified_urls": [
+  {"url": "https://www.coolingpost.com/uk-news/800000-fine-for-ld-outbreak/", "result": "blocked", "note": "WebFetch ENOTFOUND: host outside session's allowed network domains"},
+  {"url": "https://www.coolingpost.com/uk-news/800000-fine-for-ld-outbreak/", "result": "search-confirmed", "note": "Search shows this Cooling Post page '£800,000 fine for LD outbreak'; Faltec fined £800k for the Boldon outbreak traced to two cooling towers, replaced with chillers (separate £800k for explosion, £1.6m total)"},
+  {"url": "https://www.legislation.gov.uk/uksi/1992/2225/body/made?view=plain", "result": "blocked", "note": "Not fetched: network policy blocks fetching (one blocked attempt per idea as instructed)"},
+  {"url": "https://www.legislation.gov.uk/uksi/1992/2225/body/made?view=plain", "result": "search-confirmed", "note": "Search returns this exact URL for NCTEC Regs 1992; notifiable device definition and written notification to the local authority confirmed"},
+  {"url": "https://www.stateindustrial.com/product/stawatch-cooling-tower-monitor-pro/", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.stateindustrial.com/product/stawatch-cooling-tower-monitor-pro/", "result": "search-confirmed", "note": "Search returns this URL; vendor sheet confirms remote inventory tracking by the State rep and three chemical feed pumps on the Pro model; no pricing"}
+ ],
+ "distinct_credible_urls": 38,
+ "summary": "Strong compliance and enforcement story, but the incident cost and frequency of a dosing outage are unsourced, the market is crowded with controllers and supplier telemetry, and the hardware cost is high; 63/100, well short of acceptance and with 0 fetched-ok URLs."}
