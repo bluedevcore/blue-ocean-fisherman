@@ -16,7 +16,13 @@ search snippets alone. If a site blocks fetching, you may still cite it if the s
 clearly shows the claim, but say "(not fetched — blocked)" next to the bullet.
 
 ## How to research each idea
-Run AT LEAST 6 different search queries per idea (record them). Look for:
+Run AT LEAST 6 different search queries per idea (record them).
+SEARCH BUDGET (added Round 1): all agents in this session share a limited WebSearch budget
+(~200 calls per orchestrator turn). Use 6–8 queries per idea and NEVER more than 10. Make each
+query count: combine terms, target primary sources (regulator, insurer, trade body, competitor
+pricing pages, forums). If WebSearch starts refusing because the budget is exhausted, stop,
+write what you have for the current idea, and mark the remaining ideas' files with the single
+line `NOT RESEARCHED — search budget exhausted` so the orchestrator can re-dispatch them. Look for:
 1. Cost of an incident in money (loss values, fines, claims, stock write-offs, downtime cost)
 2. Frequency (how often it happens: per site per month/year, incident statistics)
 3. Current workarounds (paper logs, manual checks, site visits, staff rounds) and their labour cost
