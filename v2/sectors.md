@@ -5,42 +5,42 @@ Canonical sector list. Miners must set each signal's `sector` to exactly one of 
 
 | # | Sector | Times mined | Signals | Best problem score |
 |---|---|---|---|---|
-| 1 | Trades – electricians, plumbers, heating engineers | 0 | 0 | - |
-| 2 | Building maintenance & facilities management | 0 | 0 | - |
+| 1 | Trades – electricians, plumbers, heating engineers | 1 | 0 | - |
+| 2 | Building maintenance & facilities management | 1 | 0 | - |
 | 3 | Residential lettings & property management | 0 | 0 | - |
 | 4 | Block management & leasehold | 0 | 0 | - |
 | 5 | Social housing | 0 | 0 | - |
 | 6 | Estate agents & property sales | 0 | 0 | - |
 | 7 | Construction – main contractors | 0 | 0 | - |
-| 8 | Construction – subcontractors & specialist trades | 0 | 0 | - |
-| 9 | Architecture, surveying & building control | 0 | 0 | - |
+| 8 | Construction – subcontractors & specialist trades | 1 | 0 | - |
+| 9 | Architecture, surveying & building control | 1 | 0 | - |
 | 10 | Care homes & domiciliary care | 0 | 0 | - |
 | 11 | Healthcare admin – GP practices & clinics | 0 | 0 | - |
-| 12 | Dental practices | 0 | 0 | - |
-| 13 | Veterinary practices | 0 | 0 | - |
-| 14 | Pharmacies | 0 | 0 | - |
-| 15 | Legal admin – law firms & conveyancing | 0 | 0 | - |
-| 16 | Accounting, bookkeeping & payroll bureaux | 0 | 0 | - |
+| 12 | Dental practices | 1 | 0 | - |
+| 13 | Veterinary practices | 1 | 0 | - |
+| 14 | Pharmacies | 1 | 0 | - |
+| 15 | Legal admin – law firms & conveyancing | 1 | 0 | - |
+| 16 | Accounting, bookkeeping & payroll bureaux | 1 | 0 | - |
 | 17 | Insurance brokers & claims handling | 0 | 0 | - |
-| 18 | Financial advice & mortgage brokers | 0 | 0 | - |
-| 19 | Recruitment & staffing agencies | 0 | 0 | - |
+| 18 | Financial advice & mortgage brokers | 1 | 0 | - |
+| 19 | Recruitment & staffing agencies | 1 | 0 | - |
 | 20 | HR & employment compliance | 0 | 0 | - |
-| 21 | Logistics, haulage & couriers | 0 | 0 | - |
-| 22 | Warehousing & fulfilment | 0 | 0 | - |
+| 21 | Logistics, haulage & couriers | 1 | 0 | - |
+| 22 | Warehousing & fulfilment | 1 | 0 | - |
 | 23 | Agriculture – arable & horticulture | 0 | 0 | - |
-| 24 | Livestock & dairy farming | 0 | 0 | - |
+| 24 | Livestock & dairy farming | 1 | 0 | - |
 | 25 | Food & drink manufacturing | 0 | 0 | - |
-| 26 | Restaurants, pubs & takeaways | 0 | 0 | - |
+| 26 | Restaurants, pubs & takeaways | 1 | 0 | - |
 | 27 | Hotels, B&Bs & holiday lets | 0 | 0 | - |
 | 28 | Education – schools & academy trusts | 0 | 0 | - |
-| 29 | Further & higher education | 0 | 0 | - |
+| 29 | Further & higher education | 1 | 0 | - |
 | 30 | Nurseries & childcare | 0 | 0 | - |
 | 31 | Local government & councils | 0 | 0 | - |
-| 32 | Charities & non-profits | 0 | 0 | - |
-| 33 | Places of worship & community halls | 0 | 0 | - |
-| 34 | Manufacturing & engineering | 0 | 0 | - |
-| 35 | Compliance, HSE & safety consultancy | 0 | 0 | - |
-| 36 | Fire safety & security installers | 0 | 0 | - |
+| 32 | Charities & non-profits | 1 | 0 | - |
+| 33 | Places of worship & community halls | 1 | 0 | - |
+| 34 | Manufacturing & engineering | 1 | 0 | - |
+| 35 | Compliance, HSE & safety consultancy | 1 | 0 | - |
+| 36 | Fire safety & security installers | 1 | 0 | - |
 | 37 | Funeral services | 0 | 0 | - |
 | 38 | Events, festivals & venues | 0 | 0 | - |
 | 39 | Sport, leisure & gyms | 0 | 0 | - |
@@ -48,26 +48,26 @@ Canonical sector list. Miners must set each signal's `sector` to exactly one of 
 | 41 | Energy installers – solar, heat pumps, EV charging | 0 | 0 | - |
 | 42 | Utilities – water, gas & electricity networks | 0 | 0 | - |
 | 43 | Waste management & recycling | 0 | 0 | - |
-| 44 | Environmental consultancy & permitting | 0 | 0 | - |
+| 44 | Environmental consultancy & permitting | 1 | 0 | - |
 | 45 | Retail – independent shops & chains | 0 | 0 | - |
-| 46 | E-commerce sellers & marketplaces | 0 | 0 | - |
+| 46 | E-commerce sellers & marketplaces | 1 | 0 | - |
 | 47 | Motor trade – garages, dealers & body shops | 0 | 0 | - |
 | 48 | Fleet management | 0 | 0 | - |
-| 49 | Plant & equipment hire | 0 | 0 | - |
-| 50 | Cleaning & hygiene services | 0 | 0 | - |
-| 51 | Pest control | 0 | 0 | - |
+| 49 | Plant & equipment hire | 1 | 0 | - |
+| 50 | Cleaning & hygiene services | 1 | 0 | - |
+| 51 | Pest control | 1 | 0 | - |
 | 52 | Landscaping & grounds maintenance | 0 | 0 | - |
 | 53 | Beauty, hair & wellness salons | 0 | 0 | - |
-| 54 | Travel agents & tour operators | 0 | 0 | - |
+| 54 | Travel agents & tour operators | 1 | 0 | - |
 | 55 | Import/export & customs brokers | 0 | 0 | - |
-| 56 | IT managed service providers & telecoms | 0 | 0 | - |
-| 57 | Data centres | 0 | 0 | - |
-| 58 | Laboratories & testing | 0 | 0 | - |
-| 59 | Medical device & life-science SMEs | 0 | 0 | - |
-| 60 | Museums, heritage & archives | 0 | 0 | - |
-| 61 | Mining & quarrying | 0 | 0 | - |
+| 56 | IT managed service providers & telecoms | 1 | 0 | - |
+| 57 | Data centres | 1 | 0 | - |
+| 58 | Laboratories & testing | 1 | 0 | - |
+| 59 | Medical device & life-science SMEs | 1 | 0 | - |
+| 60 | Museums, heritage & archives | 1 | 0 | - |
+| 61 | Mining & quarrying | 1 | 0 | - |
 | 62 | Aviation & airports | 0 | 0 | - |
 | 63 | Rail & public transport | 0 | 0 | - |
-| 64 | Ports & shipping | 0 | 0 | - |
-| 65 | Security guarding & key holding | 0 | 0 | - |
+| 64 | Ports & shipping | 1 | 0 | - |
+| 65 | Security guarding & key holding | 1 | 0 | - |
 | 66 | Self-storage | 0 | 0 | - |

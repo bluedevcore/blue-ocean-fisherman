@@ -1,8 +1,65 @@
 {
   "round": 0,
   "accepted": [],
-  "last_completed_step": "setup",
-  "source_type_yield": {},
+  "last_completed_step": "round0-rubric",
+  "source_type_yield": {
+    "S1": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S2": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S3": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S4": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S5": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S6": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    },
+    "S7": {
+      "signals": 0,
+      "in_problems": 0,
+      "researched": 0,
+      "score_65_plus": 0,
+      "score_80_plus": 0,
+      "accepted": 0
+    }
+  },
   "notes_for_miners": "",
   "sector_mined": {
     "Trades – electricians, plumbers, heating engineers": 1,
@@ -71,5 +128,7 @@
     "Ports & shipping": 1,
     "Security guarding & key holding": 1,
     "Self-storage": 0
-  }
+  },
+  "total_signals": 0,
+  "total_problems": 0
 }
