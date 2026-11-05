@@ -1,0 +1,30 @@
+{
+  "A": [
+    "Fleet & road haulage",
+    "Rail & transit infrastructure",
+    "Heating oil, LPG & fuel distribution",
+    "Places of worship, community halls & charities",
+    "Agriculture – arable, horticulture & greenhouses"
+  ],
+  "B": [
+    "Manufacturing & industrial plants",
+    "Logistics & warehousing",
+    "Prisons, police custody & secure facilities",
+    "Security, alarm monitoring & key holding",
+    "Data centres, server rooms & comms rooms"
+  ],
+  "C": [
+    "Local councils – parks, highways, street assets",
+    "Healthcare facilities – hospitals & clinics",
+    "Aviation ground operations & airports",
+    "Residential lettings & social housing",
+    "Zoos, aquariums & wildlife parks"
+  ],
+  "D": [
+    "Laboratories & research facilities",
+    "Swimming pools & spas",
+    "Plant, tool & equipment hire",
+    "Pest control",
+    "Fuel forecourts & EV charging sites"
+  ]
+}
