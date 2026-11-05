@@ -1,0 +1,51 @@
+{
+ "S1": [
+  "Dental practices",
+  "Financial advice & mortgage brokers",
+  "Livestock & dairy farming",
+  "IT managed service providers & telecoms",
+  "Further & higher education"
+ ],
+ "S2": [
+  "Laboratories & testing",
+  "Pest control",
+  "Veterinary practices",
+  "Trades – electricians, plumbers, heating engineers",
+  "Recruitment & staffing agencies"
+ ],
+ "S3": [
+  "Compliance, HSE & safety consultancy",
+  "Logistics, haulage & couriers",
+  "Fire safety & security installers",
+  "Plant & equipment hire",
+  "Architecture, surveying & building control"
+ ],
+ "S4": [
+  "Places of worship & community halls",
+  "Ports & shipping",
+  "Pharmacies",
+  "Environmental consultancy & permitting",
+  "Charities & non-profits"
+ ],
+ "S5": [
+  "Restaurants, pubs & takeaways",
+  "Security guarding & key holding",
+  "Accounting, bookkeeping & payroll bureaux",
+  "Medical device & life-science SMEs",
+  "Manufacturing & engineering"
+ ],
+ "S6": [
+  "Construction – subcontractors & specialist trades",
+  "Travel agents & tour operators",
+  "Legal admin – law firms & conveyancing",
+  "Building maintenance & facilities management",
+  "Mining & quarrying"
+ ],
+ "S7": [
+  "Warehousing & fulfilment",
+  "Cleaning & hygiene services",
+  "Data centres",
+  "Museums, heritage & archives",
+  "E-commerce sellers & marketplaces"
+ ]
+}
