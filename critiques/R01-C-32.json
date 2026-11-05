@@ -1,0 +1,26 @@
+{"id": "R01-C-32",
+ "criterion_scores": {"c1": 4, "c2": 6, "c3": 7, "c4": 5, "c5": 5, "c6": 9, "c7": 4, "c8": 4, "c9": 5, "c10": 8},
+ "justifications": {
+  "c1": "No per-incident loss for private estate stations is sourced. The £3k–£8k per room clean-up figure comes from a commercial cleaning blog. Water-company compensation (£150–£1,000) applies only to public sewers, and the EA fines (£2m, £330k, £300k) were against water companies, not private owners. The idea's £10k+ per home was not confirmed.",
+  "c2": "Housing Ombudsman cases show repeat incidents at single stations (Walsall: blockages in February and July 2024 and continuing ingress, search-confirmed; Hexagon: overflows in October and December 2021). No failure-rate data or station count was found, and servicing is quarterly at most.",
+  "c3": "Paid contracted servicing is documented with values: Wandle £302k over up to 4 years, a £200k–£550k 5-year contract, and Eastlight quarterly servicing across 50 sites. Local float alarms cost about £155. Costs per site are not broken out, and the sensor adds alerting rather than removing servicing.",
+  "c4": "Owners are responsible for unadopted stations (Northumbrian, Thames, Anglian, Southern guidance), and the Housing Ombudsman makes maladministration findings. However, no rule requires monitoring or records for private stations, no private-station EA prosecution was found, and the 'monitoring mandated' source is US only.",
+  "c5": "Housing associations evidently hold pump-maintenance budgets (tenders), and new-build estates use management companies funded by service charges (£600/yr, Frimley). No job title or role description with budget was found.",
+  "c6": "Pump-station service contractors already sell monitoring for this exact site type: Southern Pump Services sells GSM dial-out telemetry and services housing-estate stations (search-confirmed), and CG Godfrey deploys Pow-Electrics IIoT kits. Water companies also offer monitoring to developers before adoption.",
+  "c7": "The category is commoditised: GSM dial-out units, £155 float alarms, Permagard AlertMaxx2, Kingspan SmartServ Pro (£564 ex VAT) and water-company monitoring contracts. The gap is whether owners fit alarms, not a missing product, and no complaints about incumbents were found.",
+  "c8": "Level-sensing modules and current clamps are standard. The wet well is a harsh environment, partly underground with RF problems, and its possible explosive atmosphere and ATEX zoning were not checked. No component prices were found apart from the £155 float alarm.",
+  "c9": "Stations need ongoing operation, multi-year maintenance contracts exist, and a Middle Level 'Telemetry charges 576.00' line appears (period unknown). The Anglian £69/£86 monitoring price could not be confirmed in search, a different Anglian page shows a £889.10 monitoring contract with an unclear unit, and there is no statutory record schedule.",
+  "c10": "Housing Ombudsman decisions (Settle, Walsall, Sovereign, Hexagon), a WATRS adjudication, local news (Surrey Live, Kent Online, Bognor, inkl/Cramlington), an MSE forum thread and EA enforcement releases. The regulator data concern water companies, not private estate stations."
+ },
+ "total": 57,
+ "weakest": "Cheap GSM dial-out alarms and contractor telemetry already exist and are sold by the same pump-service contractors, and no private-estate loss figure or monitoring duty is sourced to justify a new product.",
+ "verified_urls": [
+  {"url": "https://www.anglianwater.co.uk/link/4c84f1f068a94d1896f4a40bb4811836.aspx", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.housing-ombudsman.org.uk/decisions/walsall-housing-group-limited-202427673/", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://southernpumpservices.co.uk/gsm-dial-out-telemmetry.php", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.anglianwater.co.uk/link/4c84f1f068a94d1896f4a40bb4811836.aspx", "result": "unconfirmed", "note": "The URL appears in search but no £69/£86 figure was visible. A different Anglian page shows an optional monitoring contract at £889.10 with an unclear unit."},
+  {"url": "https://www.housing-ombudsman.org.uk/decisions/walsall-housing-group-limited-202427673/", "result": "search-confirmed", "note": "The resident reported drains blocked 'due to a blockage at the nearby pumping station' (Feb 2024). The developer found internal damage from debris (Jul 2024), and water was still entering the foul pipe in heavy rain."},
+  {"url": "https://southernpumpservices.co.uk/gsm-dial-out-telemmetry.php", "result": "search-confirmed", "note": "The dial-out unit alerts by text on pump trip, high-level alarm or mains failure to up to four mobile numbers"}
+ ],
+ "distinct_credible_urls": 36,
+ "summary": "Real resident harm and a strong contractor channel, but the problem is already solved by cheap GSM alarms sold through that same channel, with no sourced private-estate loss or monitoring duty."}

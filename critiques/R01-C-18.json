@@ -1,0 +1,26 @@
+{"id": "R01-C-18",
+ "criterion_scores": {"c1": 2, "c2": 8, "c3": 6, "c4": 5, "c5": 6, "c6": 8, "c7": 5, "c8": 7, "c9": 5, "c10": 8},
+ "justifications": {
+  "c1": "A repeat bleed costs about £4 plus 50p handling (MKUH FOI, search-confirmed). The ~£16.50/sample figure is the requester MSoft's estimate for wrong-blood-in-tube, not a transport-rejection cost. The Grampian admission reduction (22→6) has no £ value, the Kent 2,500-recall figure comes from a patient forum, and no UK recall or admission cost was found.",
+  "c2": "Spurious potassium in GP samples recurs daily through winter: Portsmouth's daily means (PMC), a BJGP audit of about 224k results, and the Black Country 2025 notice (search-confirmed). The pain is seasonal, so a summer pilot would show little.",
+  "c3": "The workarounds are documented: on-site centrifugation (Grampian), temperature-controlled vans (Synnovis), insulated bags (Norfolk SusQI), clinical 'check if spurious' pathways and twice-daily courier runs. No labour or £ cost of these was found.",
+  "c4": "ISO 15189:2022 pre-examination requirements are cited only via secondary summaries, which describe them as 'less prescriptive', and no UKAS requirement for continuous transport temperature records was found. The NHS South West notice exists (a PIN for pathology couriers), but its 'tracking paramount' wording was not seen. The enforcement example is US CLIA only.",
+  "c5": "A Band 7 'Pathology Stores and Logistics Manager' managing the GP transport service is evidenced (UHL; attribution between adverts approximate), as is a Barts logistics deputy. Neither advert evidences a budget, and the sale goes through NHS procurement.",
+  "c6": "Pathology courier firms already visit every GP surgery daily and sell tracking and temperature control: CitySprint PathTrak, and EMED with UKAS-compliant temperature-controlled vehicles and RFID sample-temperature monitoring (vendor claims). In-house NHS courier fleets are the other channel.",
+  "c7": "Crowded with priced or generic incumbents: CitySprint, EMED (RFID at sample level), MedSpeed, Tive (Tag $5; Solo Lite PLN 200), Roambee ($10/device/month, attribution approximate) and Sensitech. The box-level, pre-pickup gap is inferred from the Synnovis and Black Country notices, and no complaint about existing trackers was found.",
+  "c8": "Off-the-shelf cellular temperature/GPS trackers exist (Tive Solo specification; Solo Lite about PLN 200 ≈ £40). In-van cellular coverage is plausible, and UN3373 packaging is standard. Reusable-box charging logistics and MHRA status are unconfirmed.",
+  "c9": "The seasonal pain recurs every winter, and hub consolidation lengthens routes (RCPath). However, there is no statutory record schedule, the tender requirement is unconfirmed, and the only subscription comparable ($10/device/month) has approximate attribution.",
+  "c10": "Clinical literature (BJGP, Ann Clin Biochem, PMC, BMJ), NHS trust notices (Black Country, Synnovis), trade press (HSJ) and a first-hand patient forum post (HealthUnlocked). There is no regulator or enforcement data."
+ },
+ "total": 60,
+ "weakest": "The cost per incident is trivial (about £4 per repeat bleed), and the valuable outcomes (avoided admissions, clinical risk) have no £ figure, so there is no money case.",
+ "verified_urls": [
+  {"url": "https://myconnect.swbh.nhs.uk/news/increased-incidence-of-spuriously-raised-potassium-results/", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.mkuh.nhs.uk/document/it-divices-response-4826-attachment-2", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.find-tender.service.gov.uk/Notice/000758-2023", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://myconnect.swbh.nhs.uk/news/increased-incidence-of-spuriously-raised-potassium-results/", "result": "search-confirmed", "note": "Black Country notice (Jan 2025): more spuriously raised potassium results, linked to longer transport to the Wolverhampton hub and slower centrifugation"},
+  {"url": "https://www.mkuh.nhs.uk/document/it-divices-response-4826-attachment-2", "result": "search-confirmed", "note": "The snippet gives 'Phlebotomy is around £4 per bleed... about 0.50p per sample'. The £16.50 figure appears to be the requester MSoft's estimate, not the trust's."},
+  {"url": "https://www.find-tender.service.gov.uk/Notice/000758-2023", "result": "unconfirmed", "note": "The notice exists (an NHS South West PIN for specialist pathology and pharmacy courier services, Jan 2023), but the 'tracking system paramount' and temperature wording was not visible"}
+ ],
+ "distinct_credible_urls": 30,
+ "summary": "The clinical evidence for transport-induced spurious potassium is good, but the money case is about £4 a bleed, compliance pressure is soft, and pathology couriers already sell tracking and temperature control."}
