@@ -1,10 +1,10 @@
 {
   "round": 1,
   "accepted": [],
-  "last_completed_step": "mine-dispatched",
+  "last_completed_step": "mine",
   "source_type_yield": {
     "S1": {
-      "signals": 0,
+      "signals": 58,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -12,7 +12,7 @@
       "accepted": 0
     },
     "S2": {
-      "signals": 0,
+      "signals": 59,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -20,7 +20,7 @@
       "accepted": 0
     },
     "S3": {
-      "signals": 0,
+      "signals": 59,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -28,7 +28,7 @@
       "accepted": 0
     },
     "S4": {
-      "signals": 0,
+      "signals": 59,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -36,7 +36,7 @@
       "accepted": 0
     },
     "S5": {
-      "signals": 0,
+      "signals": 59,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -44,7 +44,7 @@
       "accepted": 0
     },
     "S6": {
-      "signals": 0,
+      "signals": 60,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -52,7 +52,7 @@
       "accepted": 0
     },
     "S7": {
-      "signals": 0,
+      "signals": 60,
       "in_problems": 0,
       "researched": 0,
       "score_65_plus": 0,
@@ -129,6 +129,6 @@
     "Security guarding & key holding": 1,
     "Self-storage": 0
   },
-  "total_signals": 0,
+  "total_signals": 414,
   "total_problems": 15
 }
