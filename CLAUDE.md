@@ -349,3 +349,5 @@ ENVIRONMENT LESSONS (carried from v1, 2026-11-05)
   overlapping waves share it. Run one search-heavy wave at a time, ≤ ~180 planned searches
   in total, with an explicit per-agent search cap in every dispatch. Re-dispatch partial
   batches.
+- reddit.com is rejected by the WebSearch tool in this environment (round 1, S6 miner). S6 miners should use
+  trade forums, Q&A sites, trade-body boards and articles quoting community posts instead.
