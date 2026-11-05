@@ -1,0 +1,63 @@
+{
+ "id": "R01-A-19",
+ "criterion_scores": {
+  "c1": 4,
+  "c2": 4,
+  "c3": 4,
+  "c4": 2,
+  "c5": 4,
+  "c6": 5,
+  "c7": 5,
+  "c8": 4,
+  "c9": 3,
+  "c10": 6
+ },
+ "justifications": {
+  "c1": "Only an old industry aggregate (200,000 cylinders/£9m, c.2012, search-confirmed) and per-incident losses described as 'hundreds of pounds' (Ryde, 14 cylinders); no per-stockist or per-incident £ figure ≥£2k.",
+  "c2": "Many local overnight cage thefts reported (Prees, Braunston, Kingsbury, Wrexham, Oxford, Diss) but no national or per-stockist rate; run-empty-between-restocks frequency not evidenced at all.",
+  "c3": "Locked cages exist and are defeated by cutting; the researcher found no source for manual cage counts by drivers or their labour cost.",
+  "c4": "Codes (Liquid Gas UK CoP 7, Flogas code, Jersey standard) cover safe storage only; researcher states none require monitoring, stock or theft records; HSE ATEX page adds a constraint rather than pressure.",
+  "c5": "Calor 'Sales Professional' roles (£48k-£57.6k) cover the cylinder network, but no evidence anyone at Calor/Flogas holds budget for cage security or telemetry; a sale to a single large gas company is an enterprise sale.",
+  "c6": "Calor (300+ retailers) and Flogas account managers/distributors visit cages, but no evidence they sell or bundle any technology to stockists.",
+  "c7": "Otodata cage monitor (search-confirmed) proves the restock use case in North America at low fees ($1-$5/month); no UK product found but the gap is asserted, and pricing expectations are low.",
+  "c8": "Door/tamper sensing is easy, but cylinder counting needs load cells or a custom circuit; electronics at an LPG cage raise DSEAR/ATEX questions; no BOM found.",
+  "c9": "Comparable monitors priced at $1-$5/month per unit; no insurer, police or compliance demand for ongoing cage data found.",
+  "c10": "Local news (many), Gasworld trade press, a Caravan Club forum thread (personal theft, tangential) and an Irish court case; no regulator or insurer loss data."
+ },
+ "total": 41,
+ "weakest": "Per-site losses are a few hundred pounds per theft and the only large figure is a decade-old industry aggregate, while the comparable product sells for $1-$5 per month.",
+ "verified_urls": [
+  {
+   "url": "https://www.yorkshirepost.co.uk/news/gas-cylinders-targeted-1908765",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.yorkshirepost.co.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.yorkshirepost.co.uk/news/gas-cylinders-targeted-1908765",
+   "result": "search-confirmed",
+   "note": "Search shows the 'Gas cylinders targeted' page: Calor said 200,000 cylinders stolen in the previous year worth £9m; undated, likely c.2012, as the file notes."
+  },
+  {
+   "url": "https://www.lpgasmagazine.com/new-cage-monitor-from-otodata",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.lpgasmagazine.com/new-cage-monitor-from-otodata",
+   "result": "search-confirmed",
+   "note": "LP Gas Magazine 'New cage monitor from Otodata' (Oct 2024): cable with internal circuit tied to last tanks on bottom shelf signals restock; matches the file."
+  },
+  {
+   "url": "https://countypress.co.uk/news/24097600.popular-isle-wight-garden-centre-offers-1-000-reward-thefts",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://countypress.co.uk/news/24097600.popular-isle-wight-garden-centre-offers-1-000-reward-thefts",
+   "result": "search-confirmed",
+   "note": "IW County Press: 14 gas cylinders stolen from Busy Bee Garden Centre, Ryde, after cage was cut; £1,000 reward offered; matches the file."
+  }
+ ],
+ "distinct_credible_urls": 30,
+ "summary": "Anecdotal theft pain with small per-site losses, no compliance driver and very low comparable pricing; weak candidate, no URL fetch-verified (3 search-confirmed)."
+}

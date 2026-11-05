@@ -1,0 +1,63 @@
+{
+ "id": "R01-D-19",
+ "criterion_scores": {
+  "c1": 3,
+  "c2": 6,
+  "c3": 6,
+  "c4": 7,
+  "c5": 6,
+  "c6": 6,
+  "c7": 5,
+  "c8": 5,
+  "c9": 4,
+  "c10": 6
+ },
+ "justifications": {
+  "c1": "Fines cited (Ling £15,858 + £3,858, search-confirmed; £15k; £4k) are for contractors not providing welfare at all; researcher found no cost for a mid-week overflow or run-dry, an emergency call-out or lost hire revenue.",
+  "c2": "Weekly emptying is the planning norm (BS 6465-1 via BSG, attribution uncertain) and hire firms service weekly (vendor); the claimed between-visit overflow/run-dry events have no frequency data.",
+  "c3": "Weekly servicing within hire price and separately bookable waste-tank emptying (Site Equip, vendor), fixed-route driver jobs (Pertemps, YoungCapital); cost per visit not evidenced in the file.",
+  "c4": "CDM 2015 Schedule 2 / Reg 13(4)(c) welfare duty with HSE prosecutions and improvement notices (Ling, Rochdale, Cheshire), but the duty sits with the principal contractor and nothing requires tank-level or service records.",
+  "c5": "GAP Group 'Operations Manager, Tanker Services' advert and service operatives reporting to an Operations Manager identify the hire-firm buyer; no telematics budget evidenced.",
+  "c6": "The hire firm's own drivers visit every unit weekly, so buyer and installer coincide; no evidence UK hirers or unit makers (AJC, Garic, Boss, Groundhog) sell telemetry.",
+  "c7": "Sensoneo and Satellite Sense sell portable-toilet fill sensors and Enevo sells fill-level routing, but no prices or customer counts; the UK welfare-unit gap is asserted.",
+  "c8": "Off-the-shelf ultrasonic level sensors cost £243-£511 each (Innon, Tekelek) and several sensors per unit are proposed, so BOM is well above £50 unless custom; waste-tank environment is harsh.",
+  "c9": "Telemetry fee could ride the weekly hire line (£275-£325/week, Euroloo search-confirmed), but no record-keeping duty and no evidence anyone pays for service records.",
+  "c10": "HSE press releases and trade press on welfare prosecutions and BSG breach statistics (third-party host, search-confirmed but uncorroborated), but nothing about hired units overflowing or running dry between services."
+ },
+ "total": 54,
+ "weakest": "The specific failure targeted (a hired unit's tank filling or running dry between weekly services) has no evidence of frequency or cost; the prosecutions found are for not providing welfare at all.",
+ "verified_urls": [
+  {
+   "url": "https://www.theconstructionindex.co.uk/news/view/ling-developments-fined-over-lack-of-facilities",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.theconstructionindex.co.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.theconstructionindex.co.uk/news/view/ling-developments-fined-over-lack-of-facilities",
+   "result": "search-confirmed",
+   "note": "Ling Developments fined £15,858 + £3,858 costs at Birmingham Magistrates (13 Apr 2026) for CDM Reg 13(4)(c) breaches: no hot/warm water in toilets, inadequate rest facilities, two improvement notices; matches the file."
+  },
+  {
+   "url": "https://bsg.barques.dev/news/bsg-reports-47-increase-in-welfare-breaches-on-construction-sites/",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://bsg.barques.dev/news/bsg-reports-47-increase-in-welfare-breaches-on-construction-sites/",
+   "result": "search-confirmed",
+   "note": "bsg.barques.dev page (21 Apr 2026) reports a 47% increase in welfare breaches from ~10,000 inspections, Q4 2025 vs Q1 2026; only on this third-party host, not corroborated elsewhere."
+  },
+  {
+   "url": "https://www.euroloo.com/?p=324141",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.euroloo.com/?p=324141",
+   "result": "search-confirmed",
+   "note": "Euroloo hire guide: 12ft eco welfare unit £275-£325 per week; page also says extra servicing visits cost £80-120 each (not used in the file)."
+  }
+ ],
+ "distinct_credible_urls": 29,
+ "summary": "Statutory welfare duty is real but the targeted between-visit failure is unevidenced and sensor costs are high; weak, no URL fetch-verified (3 search-confirmed)."
+}

@@ -1,0 +1,68 @@
+{
+ "id": "R01-A-32",
+ "criterion_scores": {
+  "c1": 4,
+  "c2": 8,
+  "c3": 7,
+  "c4": 5,
+  "c5": 6,
+  "c6": 8,
+  "c7": 5,
+  "c8": 6,
+  "c9": 8,
+  "c10": 7
+ },
+ "justifications": {
+  "c1": "Hardware losses only £500-£2,000 per theft/vandalism (Upper Arley £1,170; Brymbo up to £2,000; GoFundMe ~£1,600) and the Circuit/Cardiff Met data put theft/vandalism at 0.1-0.3% of devices, so expected loss per site per year is far below product cost; the main harm (missed resuscitation) is unquantified.",
+  "c2": "Guardian checks are routine and frequent: SCAS checklist sets weekly presence and 'ready' symbol checks (search-confirmed; battery check is actually monthly, misfiled as weekly in the file), GWAA monthly, RCUK checklist; cadence varies by scheme and is guidance, not statute.",
+  "c3": "Documented volunteer routine (SCAS, RCUK, parish maintenance policies) and paid managed support (£126-£190/yr); volunteer time is not costed, so labour cost is unquantified.",
+  "c4": "Only guidance (RCUK/BHF guardian checklist, ambulance trust instructions, NHS England cabinet guidance); researcher found no statutory duty, insurer condition or liability case.",
+  "c5": "Parish councils evidenced holding budget (Clipstone £3,000 earmarked; Kirkby Underwood lease costing; councils paying £135-£190/yr support), but buyers are thousands of small councils acting by minuted resolution; no job advert evidence.",
+  "c6": "Community Heartbeat Trust (with Rotaid connected cabinets) and Duchy Defibrillators (monitored cabinet, £190+VAT monitoring fee in Delabole PC paper) already bundle monitoring for this exact site type, though they are also competitors.",
+  "c7": "Willingness to pay proven (CHT support fees, Duchy £190 monitoring, Turtle DefibMonitor subscription search-confirmed, Rotaid licence), but Turtle/Rotaid/Duchy already sense temperature, door and presence; the AED-status-light/Circuit-sync gap is unverified either way.",
+  "c8": "Retrofit cabinet monitors already ship (Turtle, SaveStation) so sensing is proven; optical reading of varied AED status LEDs is somewhat custom; no BOM, battery or certification evidence searched.",
+  "c9": "Ongoing readiness logging on The Circuit plus contractual annual support (CHT adoption agreement 'at least £126 per annum'; Redlingfield £540/4 yrs search-confirmed; Duchy £190+VAT) ≥£100/site/yr; record duty is guidance/contract, not statute.",
+  "c10": "Many local news reports of unreturned AEDs (Cheltenham, Dereham, Bath, Barnsley, Coventry, Cannock), RCUK/AACE 'Check Your Defib Week' campaign and academic poster; no forum/complaint source and theft concern is partly debunked by the same data."
+ },
+ "total": 64,
+ "weakest": "The money at stake per site is tiny (theft/vandalism 0.1-0.3% of devices, £500-£2,000 hardware) and UK incumbents already sell cabinet monitoring with temperature, door and presence sensing.",
+ "verified_urls": [
+  {
+   "url": "https://www.scas.nhs.uk/wp-content/uploads/2025/11/DEFIBRILLATOR-GUARDIAN-CHECKLIST_Nov2025.pdf",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.scas.nhs.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.scas.nhs.uk/wp-content/uploads/2025/11/DEFIBRILLATOR-GUARDIAN-CHECKLIST_Nov2025.pdf",
+   "result": "search-confirmed",
+   "note": "SCAS Nov 2025 checklist: weekly checks = defib inside cabinet + 'ready' symbols active; 'If less than 50% order new battery' sits under MONTHLY checks, so the file's attribution of the battery check to weekly tasks is a minor misquote; weekly cadence itself confirmed."
+  },
+  {
+   "url": "https://turtledefibcabinets.co.uk/defibrillator-cabinets/defibmonitor-subscription/",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://turtledefibcabinets.co.uk/defibrillator-cabinets/defibmonitor-subscription/",
+   "result": "search-confirmed",
+   "note": "Turtle DefibMonitor page: tracks cabinet temperature, humidity, door status and defib presence with alerts and weekly summaries; search also shows £95 ex VAT for 1 year (not cited in the file)."
+  },
+  {
+   "url": "https://ainstable-pc.gov.uk/parish_council/pdf/Agendas/Agendas_2019/Appendix_2_Jan_2019.pdf",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://ainstable-pc.gov.uk/parish_council/pdf/Agendas/Agendas_2019/Appendix_2_Jan_2019.pdf",
+   "result": "unconfirmed",
+   "note": "Ainstable 2019 appendix not found in search results; the £135/yr CHT support figure is corroborated by Hempstead PC minutes and Redlingfield (below)."
+  },
+  {
+   "url": "https://www.redlingfieldparishcouncil.gov.uk/assets/Parish/Item-3.-Defib-paper-for-26-July-2021.pdf",
+   "result": "search-confirmed",
+   "note": "Redlingfield PC 2021 paper shows 'Annual support costs - for 4 years, VAT free 540.00' (i.e. £135/yr), matching the file."
+  }
+ ],
+ "distinct_credible_urls": 45,
+ "summary": "Strong routine-check, channel and recurring-fee evidence but negligible money at risk per site and a crowded UK monitoring field; not acceptable, no URL fetch-verified (3 search-confirmed)."
+}

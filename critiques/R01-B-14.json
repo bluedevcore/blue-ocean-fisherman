@@ -1,0 +1,63 @@
+{
+ "id": "R01-B-14",
+ "criterion_scores": {
+  "c1": 4,
+  "c2": 6,
+  "c3": 6,
+  "c4": 5,
+  "c5": 4,
+  "c6": 7,
+  "c7": 3,
+  "c8": 5,
+  "c9": 5,
+  "c10": 5
+ },
+ "justifications": {
+  "c1": "Replacement cost figures ($2,950-$12,000) come only from US vendor guides with unconfirmed per-page attribution; researcher found no UK price and no figure for life lost to under-watering.",
+  "c2": "Watering at each charge / weekly is stated by Hoppecke UK, BHS and Redway (all battery or watering vendors) plus a non-UK hire contract requiring daily checks; no statistic on under-watering events.",
+  "c3": "Paid battery service plans with monthly visits and fixed monthly pricing (Exide, search-confirmed), Hoppecke and Crown UK contracts; no price per visit or in-house labour quantified; all sources sell the service.",
+  "c4": "No statutory duty; contractual pressure only: a US warranty requiring maintenance records (Scribd, attribution unverified), German/other non-UK hire T&Cs, and FLTA fair-wear guidance (search-confirmed).",
+  "c5": "No MHE/fleet manager job adverts searched; the buyer (3PL vs battery service manager) is inferred from Exide's monthly pricing line.",
+  "c6": "Battery makers' service arms (Exide, Hoppecke) and OEM dealers (Crown UK) visit sites monthly and EnerSys sells Wi-iQ monitoring, so channels selling adjacent technology exist, though they are also competitors.",
+  "c7": "EnerSys Wi-iQ5 (electrolyte detection, LTE/BLE) and Philadelphia Scientific Blinky family (UL Classified, ~$48, search-confirmed) cover the need; lithium-ion is forecast to overtake lead-acid around 2026, shrinking the base.",
+  "c8": "Pilot-cell electrolyte sensing and combined current/level monitoring are proven (Blinky, Wi-iQ), but no component prices and hydrogen/ATEX in charging rooms was not checked.",
+  "c9": "Exide sells service at a fixed monthly price and fair-wear disputes recur at off-hire, but no comparable monitoring subscription price and a declining lead-acid fleet.",
+  "c10": "FLTA fair-wear warnings in trade press (Forkliftaction, Logistics Matters), a 2006 TCC case that is not about watering, and a vendor warning (Hoppecke); no forum complaints or enforcement data."
+ },
+ "total": 50,
+ "weakest": "The addressable lead-acid base is shrinking as lithium-ion overtakes it, and strong incumbents (EnerSys Wi-iQ, Blinky) already cover electrolyte monitoring.",
+ "verified_urls": [
+  {
+   "url": "https://exidegroup.com/en/document/service-brochure",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND exidegroup.com (outside allowed network domains)."
+  },
+  {
+   "url": "https://exidegroup.com/en/document/service-brochure",
+   "result": "search-confirmed",
+   "note": "Exide service brochure snippets: Essential tier = monthly visual inspection + battery topping; fixed monthly costs that won't change during the contract; matches the file."
+  },
+  {
+   "url": "https://www.forkliftaction.com/news/flta-warns-about-fair-wear.aspx?n=16113",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.forkliftaction.com/news/flta-warns-about-fair-wear.aspx?n=16113",
+   "result": "search-confirmed",
+   "note": "Forkliftaction 'FLTA warns about fair wear': confusion over fair wear and tear risks large unexpected end-of-contract repair bills and disputes; matches the file."
+  },
+  {
+   "url": "https://www.liftandaccess.com/news/philadelphia-scientific-adds-battery-watering-monitor-family",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.liftandaccess.com/news/philadelphia-scientific-adds-battery-watering-monitor-family",
+   "result": "search-confirmed",
+   "note": "Lift and Access item: Philadelphia Scientific Blinky family (Blinky, Smart Blinky, Smart Blinky Remote), all UL Classified; matches the file."
+  }
+ ],
+ "distinct_credible_urls": 27,
+ "summary": "Contractual, vendor-evidenced pain in a shrinking lead-acid market with strong incumbents; weak, no URL fetch-verified (3 search-confirmed)."
+}

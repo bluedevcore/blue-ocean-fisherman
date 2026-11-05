@@ -1,0 +1,68 @@
+{
+ "id": "R01-C-06",
+ "criterion_scores": {
+  "c1": 5,
+  "c2": 7,
+  "c3": 5,
+  "c4": 9,
+  "c5": 6,
+  "c6": 6,
+  "c7": 5,
+  "c8": 6,
+  "c9": 6,
+  "c10": 9
+ },
+ "justifications": {
+  "c1": "County aggregates only (Cambridgeshire £483k 2024-25 mixed fines, search-confirmed; Shropshire £850k over 268 sites ≈ £3.2k/site by researcher arithmetic); in-force per-day s74 maxima unconfirmed; left-behind-signs penalty can be as low as £100, and Highways News shows Anglian's £14k/£11k fines settled at £100 each.",
+  "c2": "Shropshire ~45-55 charged sites per month in one county; Anglian Water 165 Norfolk overrun fines (search-confirmed), several caused by uncollected signs; frequent for a utility, but the share caused by kit left behind is unknown.",
+  "c3": "Councils rely on resident reports and inspections; promoter must supply evidence to contest charges (Buckinghamshire); no quantified labour or cost of the evidence-gathering workaround.",
+  "c4": "NRSWA s74 and SI 2009/303 overrun charging, 2026 extension to weekends (HAUC), Red Book statutory code, burden of proof on promoter, plus enforcement totals from Cambridgeshire, Shropshire and Norfolk; rule penalises overruns rather than mandating records.",
+  "c5": "Street Works Manager adverts (Carrington West, Matchtech) evidence the role responsible for NRSWA compliance; who holds the s74 budget (utility vs TM contractor) is not shown, and large utilities imply enterprise procurement.",
+  "c6": "TM contractors (Streetwise UK) deliver and collect kit for utilities; HRS sells monitored signs and DepotNet sells s74-risk software, but no evidence the site-visiting TM contractors resell tracking.",
+  "c7": "HRS Intelliframe (UK, search-confirmed) already offers GPS sign frames with overrun alerts and portal integration, plus US Site 20/20 and Zonar; no prices anywhere and the gap (barrier-foot form factor/price) is asserted.",
+  "c8": "Concept proven by deployed GPS sign frames (Intelliframe, ≥1-year battery per datasheet) and barrier impact trackers; no BOM, battery or certification evidence searched; rugged roadside environment.",
+  "c9": "Every permit creates a new evidence need and charging was extended in 2026, but no comparable subscription price was found.",
+  "c10": "Council enforcement releases (Cambridgeshire, Gloucestershire), local press (Great Yarmouth Mercury, Brighton & Hove News, Shropshire Star), trade press (Highways News) and first-hand complaints (Alton Herald letter, FixMyStreet report)."
+ },
+ "total": 64,
+ "weakest": "The money per left-behind-kit incident is small or negotiated down (£100 penalties; £14k fines settled at £100), and HRS Intelliframe already sells GPS sign monitoring with overrun alerts in the UK.",
+ "verified_urls": [
+  {
+   "url": "https://www.greatyarmouthmercury.co.uk/news/25349786.huge-roadwork-delays-caused-failure-collect-signs",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.greatyarmouthmercury.co.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.greatyarmouthmercury.co.uk/news/25349786.huge-roadwork-delays-caused-failure-collect-signs",
+   "result": "search-confirmed",
+   "note": "Mercury/EDP report: Anglian Water received 165 Norfolk overrun fines (FOI); in three worst cases it failed to remove signs after works (e.g. Cawston 57 days); matches the file."
+  },
+  {
+   "url": "https://www.cambridgeshire.gov.uk/news/almost-half-a-million-pounds-in-fines-issued-to-combat-roadwork-disruption",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.cambridgeshire.gov.uk/news/almost-half-a-million-pounds-in-fines-issued-to-combat-roadwork-disruption",
+   "result": "search-confirmed",
+   "note": "Cambridgeshire CC release (8 Aug 2025): £483,000 in fines to utilities and developers for non-compliant and over-running works in 2024-25; 32,000+ permits processed."
+  },
+  {
+   "url": "https://ccsbestpractice.org.uk/wp-content/uploads/2021/04/INTELLIFRAME-ELEVATOR-201120-V2.pdf",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://ccsbestpractice.org.uk/wp-content/uploads/2021/04/INTELLIFRAME-ELEVATOR-201120-V2.pdf",
+   "result": "search-confirmed",
+   "note": "Intelliframe elevator pitch: GPS-equipped electronic sign frame, permit breach/overrun alerts, integration with street works portals, min 1-year battery; matches the file."
+  },
+  {
+   "url": "https://highways-news.com/?p=44292",
+   "result": "search-confirmed",
+   "note": "Highways News (same Norfolk story): fines of £14,250, £11,000 and £13,875 issued but Anglian paid £100, £100 and £3,700 - shows charges are often negotiated down."
+  }
+ ],
+ "distinct_credible_urls": 38,
+ "summary": "Strong statutory and public-pain evidence but small, negotiable per-incident money and a direct UK incumbent; below acceptance, no URL fetch-verified (4 search-confirmed)."
+}

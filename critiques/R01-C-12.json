@@ -1,0 +1,63 @@
+{
+ "id": "R01-C-12",
+ "criterion_scores": {
+  "c1": 7,
+  "c2": 8,
+  "c3": 8,
+  "c4": 9,
+  "c5": 7,
+  "c6": 6,
+  "c7": 5,
+  "c8": 6,
+  "c9": 8,
+  "c10": 8
+ },
+ "justifications": {
+  "c1": "Several independent per-incident figures: Aster Healthcare £1.04m + £184,513 costs (search-confirmed, unserviced TMV), housing association £135k, Scottish care home £30k; but the only NHS hospital case is £8k (2008) and servicing spend is ≤~£50/valve/yr (researcher estimate), so payback per site is unproven.",
+  "c2": "Six-monthly full clean and check of all TMVs (Powys tender, search-confirmed), monthly sentinel temperature checks (HSE archive), D08 first in-service test at 6-8 weeks (provider), pre-bath manual checks (NHS Lothian); recurring tasks, but no TMV failure rate.",
+  "c3": "Quantified paid workaround from public procurement: GSTT TMV contract £780k ex VAT over 3 years, Powys £87,240, E&N Herts £80k, Northampton £250k water hygiene; whether monitoring can reduce these visits is untested (no guidance allows extended intervals).",
+  "c4": "HTM 04-01 D08 (NHS England) and Welsh WHTM require in-service testing; NHSEI estates alert shows valves failing audit; scald prosecutions under H&S law (Aster corporate manslaughter with falsified temperature records, HA £135k, Scotland, Wales, NHS trust).",
+  "c5": "NHS Jobs adverts for Band 7 Water Safety Manager / Responsible Person (Water) under HTM 04-01 (Essex, Royal Berkshire, Royal Free) and trusts buy TMV servicing and remote temperature monitoring as tendered contracts; NHS procurement is slow and IT approval is unaddressed.",
+  "c6": "Water-hygiene contractors visit every valve at least six-monthly under trust contracts, but no evidence they sell monitoring, and they earn from the visits the product aims to reduce.",
+  "c7": "Paying customers proven (remote temperature monitoring contract £120,156/5 yrs; FM Mattsson subscription; IW, Aquaflush, Orion) but crowded, and Factorylab ClipR already markets clip-on LoRaWAN TMV scald warning and predictive maintenance; no prices found.",
+  "c8": "Off-the-shelf LoRaWAN water-temperature monitors (Wavetrend) and Factorylab's clip-on delta-T sensors show feasibility; 5-yr battery is a vendor claim; no BOM; clamp-on surface readings of a 44°C threshold risk lag/false alarms.",
+  "c9": "Monthly temperature checks and six-monthly servicing recur indefinitely (HSE archive, tenders) and trusts pay multi-year monitoring contracts (£120k/5 yrs ≈ £24k/yr); record-retention schedule itself not cited.",
+  "c10": "Enforcement cases in trade press (SHP, The Care Home Environment), NHSEI alert, NHS trust FOI on scalds, IOSH forum thread, Health Estate Journal; forum item is practitioner interest rather than a complaint."
+ },
+ "total": 72,
+ "weakest": "The servicing cost the sensor targets is only about £50 per valve per year, no guidance lets monitored valves move to longer servicing intervals, and Factorylab already sells clip-on TMV scald monitoring.",
+ "verified_urls": [
+  {
+   "url": "https://bidstats.uk/tenders/2023/W11/794624453",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND bidstats.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://bidstats.uk/tenders/2023/W11/794624453",
+   "result": "unconfirmed",
+   "note": "Bidstats page not returned by search; the same GSTT 'Q1300 - TMV Service and Maintenance' notice with £780,000 ex VAT is confirmed on Find a Tender 007519-2023 (not cited in the file), so the claim is not fabricated."
+  },
+  {
+   "url": "https://thecarehomeenvironment.com/story/36727/aster-healthcare-fined-1m-care-staff-sentenced-after-scalding-death",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://thecarehomeenvironment.com/story/36727/aster-healthcare-fined-1m-care-staff-sentenced-after-scalding-death",
+   "result": "search-confirmed",
+   "note": "Care Home Environment: Aster Healthcare fined £1.04m + £184,513 costs; wrong TMV type fitted and the TMV 'had not been serviced and was not working correctly'; falsified temperature records; matches the file."
+  },
+  {
+   "url": "https://bidstats.uk/tenders/2023/W13/795738352",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://bidstats.uk/tenders/2023/W13/795738352",
+   "result": "search-confirmed",
+   "note": "Bidstats POW-OJEU-51979 award (~£87k, J&D Water Consultants) and Find a Tender text 'all TMVs must be fully cleaned and checked every six months'; matches the file."
+  }
+ ],
+ "distinct_credible_urls": 33,
+ "summary": "Highest total in this batch on strong compliance, enforcement and procurement evidence, but servicing savings are small and a clip-on TMV monitor already exists; c6/c7/c8 below 7, no URL fetch-verified (2 search-confirmed, 1 unconfirmed)."
+}

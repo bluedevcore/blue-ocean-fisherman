@@ -1,0 +1,63 @@
+{
+ "id": "R01-A-36",
+ "criterion_scores": {
+  "c1": 5,
+  "c2": 9,
+  "c3": 7,
+  "c4": 8,
+  "c5": 7,
+  "c6": 5,
+  "c7": 5,
+  "c8": 7,
+  "c9": 8,
+  "c10": 7
+ },
+ "justifications": {
+  "c1": "Independent trade sources give £15-£30/t per rejected load (FW column £15.25/t; Glencore adviser £20/t; AHDB via Farming News £20-£30/t, search-confirmed), i.e. roughly £450-£870 per load; the idea's £2k-£10k per load was not supported; sector £20m figure is a merchant claim.",
+  "c2": "AHDB says check temperature every few days then weekly, insects weekly until 5°C; Red Tractor assessors expect weekly post-harvest monitoring records; Soil Association weekly; a mandated weekly task during each storage season (seasonal, then monthly).",
+  "c3": "Manual probing routine documented by AHDB with probe hardware prices (£104.50-£285 ex VAT, SW Seeds) and Red Tractor paper template; labour time per probing round not quantified.",
+  "c4": "Red Tractor storage standard (search-confirmed) requires records of temperature, moisture, dates of checks and follow-up, investigation of temperature rises and annual probe calibration; enforcement evidence is thin (NC document and 'unassured grain claims rebuffed' not seen).",
+  "c5": "Farm owner/manager pays rejection charges (FW column) and already buys £3k-£4.8k store-monitoring systems (Barn Owl testimonial); fragmented but owner-operators hold the budget; no job-advert evidence.",
+  "c6": "Frontier/Javelot monitoring is for merchants' own stores (extension to growers not confirmed); Dealey store-hygiene contractors visit but no evidence they sell monitoring; equipment sold via shows/dealers.",
+  "c7": "Crowded UK field: Martin Lishman Barn Owl and AgroLog, Robydome StoreCheck, Farmex, Javelot, OPI, Onsenso; paying customers exist but researcher states no source shows which gap is unmet.",
+  "c8": "Off-the-shelf LoRaWAN temperature transmitters £74-£175 (Innon) with multi-year battery (vendor), Milesight TS101 insertion sensor for grain stacks; Purdue notes hot spots need dense sensors, raising per-store cost.",
+  "c9": "Red Tractor annual record and calibration cycle plus comparable fees (Barn Owl £525/yr after year one; AgroLog £180/device/yr) from one FW roundup whose prices could not be search-confirmed.",
+  "c10": "Repeated Farmers Weekly coverage of insect rejections, NFU rejections hub, Scottish FAS advice; researcher searched for and found no farmer-forum threads and no regulator enforcement data."
+ },
+ "total": 68,
+ "weakest": "A rejected load costs only about £450-£870, and the UK already has several wireless grain-spear products with subscriptions, leaving no evidenced gap.",
+ "verified_urls": [
+  {
+   "url": "https://redtractorassurance.org.uk/standards/storage/",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND redtractorassurance.org.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://redtractorassurance.org.uk/standards/storage/",
+   "result": "search-confirmed",
+   "note": "Red Tractor storage standard snippets: records kept of temperature, moisture, dates of all checks, follow-up action; 'Any temperature rises, identified during monitoring, are investigated and action taken' (clause numbering differs between versions)."
+  },
+  {
+   "url": "https://www.fwi.co.uk/machinery/harvest-equipment/grain-storage-equipment/monitoring-equipment-options-to-ease-grain-store-management",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.fwi.co.uk/machinery/harvest-equipment/grain-storage-equipment/monitoring-equipment-options-to-ease-grain-store-management",
+   "result": "unconfirmed",
+   "note": "FW roundup page exists in results (Barn Owl, AgroLog, Farmex, DIY options) but the £3,000/£4,800/£525/yr and £180/device/yr prices were not visible in search snippets; Barn Owl FETF grant (up to £1,927 off) shown instead."
+  },
+  {
+   "url": "https://farming.co.uk/news/grain-stores-need-extra-attention-in-mild-winter",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://farming.co.uk/news/grain-stores-need-extra-attention-in-mild-winter",
+   "result": "search-confirmed",
+   "note": "Farming News 'Grain stores need extra attention in mild winter': AHDB warning to avoid £20/t-£30/t costs for consignments failing contracted specification; matches the file."
+  }
+ ],
+ "distinct_credible_urls": 45,
+ "summary": "Good compliance and frequency evidence but small per-load losses and a crowded incumbent market; below acceptance, no URL fetch-verified (2 search-confirmed, 1 unconfirmed)."
+}

@@ -1,0 +1,63 @@
+{
+ "id": "R01-A-06",
+ "criterion_scores": {
+  "c1": 5,
+  "c2": 4,
+  "c3": 6,
+  "c4": 6,
+  "c5": 5,
+  "c6": 6,
+  "c7": 4,
+  "c8": 3,
+  "c9": 5,
+  "c10": 6
+ },
+ "justifications": {
+  "c1": "Independent per-incident figures exist (Taw & Torridge £25.5k fine + >£80k costs, search-confirmed; DJM £19.6k; Cavalier £3.9k) but none is a separator overflow at a depot (tank/pump leaks, delivery spills), so the money is not tied to this specific failure.",
+  "c2": "Only national aggregates (EA 499 serious incidents 2015; ~800 oil incidents/yr) and six-monthly servicing from a vendor guide; researcher recorded no per-depot or per-separator failure rate.",
+  "c3": "Paid contracted servicing/emptying is documented (Adler & Allan, GPT, CSG, Bay Oils; public tenders on Find a Tender) with a six-monthly cadence, but every price is quote-only and the cadence source is a vendor.",
+  "c4": "Alarm-fitting requirement since 2021 is supply-side only (Defra/BIVDA item search-confirmed; SPEL vendor); GPP 3 is non-regulatory in England; no operator duty to keep records and no insurer condition found; enforcement shown is for general pollution offences, not separator records.",
+  "c5": "SHEQ/depot manager adverts cited, but none mention interceptors and the researcher found no budget authority for drainage/separator spend.",
+  "c6": "Interceptor contractors (Adler & Allan, GPT, CSG, Bay Oils) visit every separator and test alarms as part of service, but no evidence they resell or bundle remote monitoring.",
+  "c7": "Crowded: Kingspan/Klargester alarm £359 ex VAT (search-confirmed), Labkotec idOil incl. battery 3G, Aquasentry web monitor, Afriso cloud, GSM/solar units; the silt/empty-on-demand gap is asserted, not evidenced.",
+  "c8": "Red flags: Afriso's separator alarm is Ex-rated (ATEX may be needed), oil/water interface probe is a specialist element (components €470-€500 each), underground chamber RF; no BOM found.",
+  "c9": "Six-monthly service cycle and alarm testing recur, but no statutory record retention and no UK subscription price for remote separator monitoring was found.",
+  "c10": "EA press release plus trade press (Route One, Commercial Motor) and contractor marketing; all concern diesel leaks generally, not separator overflow; no forum complaints found."
+ },
+ "total": 50,
+ "weakest": "None of the cited prosecutions was caused by an overfull or unalarmed separator, and remote oil/high-level alarms (including battery/cellular) are already sold by several incumbents.",
+ "verified_urls": [
+  {
+   "url": "https://www.gov.uk/government/news/taw-and-torridge-coaches-fined-for-diesel-leak-into-taw-estuary",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.gov.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.gov.uk/government/news/taw-and-torridge-coaches-fined-for-diesel-leak-into-taw-estuary",
+   "result": "search-confirmed",
+   "note": "Search shows the gov.uk press release; snippets/coverage confirm £25,500 fine at Exeter Crown Court and >£80k costs (Route One £84,828); source was depot fuel pumps/tanks, as the file notes."
+  },
+  {
+   "url": "https://bivdanewsletter.com/regulatory-affairs-newsletter/uk-government-updates-regulatory-affairs-newsletter/defra-weekly-update-wc-08-jan/",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://bivdanewsletter.com/regulatory-affairs-newsletter/uk-government-updates-regulatory-affairs-newsletter/defra-weekly-update-wc-08-jan/",
+   "result": "search-confirmed",
+   "note": "Search returned bivdanewsletter.com (?p=15947) with text that from 1 Jan 2021 oil separators supplied in England, Wales and Scotland must have an automatic warning device or high-level alarm; supports the supply-side claim."
+  },
+  {
+   "url": "https://tanks-direct.co.uk/products/klargester-high-oil-outdoor-alarm",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://tanks-direct.co.uk/products/klargester-high-oil-outdoor-alarm",
+   "result": "search-confirmed",
+   "note": "Tanks Direct product page (SKU 0017020) lists Klargester High Oil Outdoor Alarm at £359.27 ex VAT / £431.12 inc VAT, matching the file."
+  }
+ ],
+ "distinct_credible_urls": 30,
+ "summary": "Real but loosely tied pain in a crowded alarm market with possible ATEX burden; well short of acceptance and no URL could be fetch-verified (3 search-confirmed)."
+}

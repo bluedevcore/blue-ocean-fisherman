@@ -1,0 +1,63 @@
+{
+ "id": "R01-B-30",
+ "criterion_scores": {
+  "c1": 6,
+  "c2": 8,
+  "c3": 8,
+  "c4": 9,
+  "c5": 4,
+  "c6": 7,
+  "c7": 7,
+  "c8": 6,
+  "c9": 7,
+  "c10": 8
+ },
+ "justifications": {
+  "c1": "EoW is costly in aggregate (ABI £2m-£2.7m/day via CILA, Insurance Times search-confirmed, Zurich) and Confused.com gives £5,708 per incident vs Which? £1,200; no probate/unoccupied-home claim value or incidence, so per-estate expected loss is unknown.",
+  "c2": "Insurer condition requires an inspection at least every 14 days with a dated record (Homeprotect, search-confirmed) for the whole unoccupied period, plus winter drain-down/heating conditions (UK Insurance Net); fortnightly, not weekly.",
+  "c3": "Paid workarounds with prices: Carter Jonas key holding + monthly inspections from £300/month, void inspector paid £15 per 45-60 min visit (DWP), Safesite monitored alarm £35/week; whether a sensor would let insurers relax in-person visits is unproven.",
+  "c4": "Insurer wording requires dated inspection records and drain-down/heating in winter (Homeprotect, brokers) and FOS decisions (DRN-3771411, DRN-5887323) show EoW claims on unoccupied/estate homes being declined and disputed; one Homeprotect exclusion page unconfirmed.",
+  "c5": "Executors are mostly one-off lay individuals or solicitors paid from the estate; no job advert or budget evidence (researcher found none); payer is fragmented and consumer-like.",
+  "c6": "Specialist probate insurers/brokers set the conditions (Homeprotect, UK Insurance Net), Eddisons RemoteZone and property-visit networks (Viewber) serve vacant homes, and Hiscox already bundles LeakBot free for buildings policyholders (adjacent niche).",
+  "c7": "Willingness to pay shown by Safesite (£35/week), Carter Jonas (£300/month) and insurer-backed LeakBot; researcher found no product rented per estate that outputs inspection/drain-down evidence for the probate insurer.",
+  "c8": "Commodity leak sensors and shut-off valves exist (Grohe) and battery cellular vacant-property kits are deployed (Safesite); no BOM, and a flow sensor on the incoming main may need a plumber (inference).",
+  "c9": "Records are required on the insurer's 14-day schedule and comparable hire runs ~£35/week, but revenue per estate ends at sale (built-in churn) and no per-estate rental duration is sourced.",
+  "c10": "Ombudsman decisions (FOS), ABI loss data via trade press (Insurance Times, CILA), probate trade press (Today's Wills and Probate) and a Parliamentary committee linking probate to empty homes."
+ },
+ "total": 70,
+ "weakest": "There is no sourced figure for how often probate homes suffer escape-of-water losses or what they cost, and the payer is a one-off lay executor rather than a budget-holding professional.",
+ "verified_urls": [
+  {
+   "url": "https://www.homeprotect.co.uk/?p=7091",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND www.homeprotect.co.uk (outside allowed network domains)."
+  },
+  {
+   "url": "https://www.homeprotect.co.uk/?p=7091",
+   "result": "search-confirmed",
+   "note": "Homeprotect probate page: Unoccupied/Unoccupied Plus policies require inspection at least every 14 days with a brief dated record of each visit; another Homeprotect page states 30 days, so terms vary by policy."
+  },
+  {
+   "url": "https://www.homeprotect.co.uk/?p=1363",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.homeprotect.co.uk/?p=1363",
+   "result": "unconfirmed",
+   "note": "?p=1363 appears as 'Executor Home Insurance' but the Oct-Apr EoW exclusion was found on a different Homeprotect page (?p=2730) for homes empty 31-180 days; the 'unless inspected every 30 days' wording was not found."
+  },
+  {
+   "url": "https://www.insurancetimes.co.uk/analysis/escape-of-water-claims-at-25m-a-day/1430915.article",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.insurancetimes.co.uk/analysis/escape-of-water-claims-at-25m-a-day/1430915.article",
+   "result": "search-confirmed",
+   "note": "Insurance Times: average cost of EoW claims rose by a third over three years to an estimated £2.5m a day, per the ABI; matches the file."
+  }
+ ],
+ "distinct_credible_urls": 32,
+ "summary": "Best-evidenced proof need in this batch (insurer-mandated dated inspections, FOS disputes) but loss size, incidence and buyer budget are unsourced; below acceptance, no URL fetch-verified (2 search-confirmed, 1 unconfirmed)."
+}

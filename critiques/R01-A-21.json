@@ -1,0 +1,63 @@
+{
+ "id": "R01-A-21",
+ "criterion_scores": {
+  "c1": 7,
+  "c2": 4,
+  "c3": 6,
+  "c4": 7,
+  "c5": 5,
+  "c6": 7,
+  "c7": 4,
+  "c8": 6,
+  "c9": 5,
+  "c10": 7
+ },
+ "justifications": {
+  "c1": "Independent per-incident figures ≥£2k: Withernsea school £18k fine + £3,939 costs (IEMA, search-confirmed), Suffolk £20k fine, council guidance and OFTEC that clean-up 'regularly' exceeds £20k; Chubb £800k is insurer marketing; but per-site annual loss is unknown because incidents are rare.",
+  "c2": "Only national aggregates (~800 oil incidents/yr, 5,308 oil/fuel incidents) and annual OFTEC inspections; researcher found no commercial/institutional leak or bund-failure frequency.",
+  "c3": "Annual OFTEC 600A inspections sold by GPT, Tradebe and Crown Oil and liquid-only bund alarms (~£97) are documented; no labour or inspection price found; sources are vendors.",
+  "c4": "SI 2001/2954 (legislation.gov.uk) mandates secondary containment above 200 L on commercial/institutional premises; OFTEC (search-confirmed) and broker say clean-up is often not insured and gradual pollution is limited; prosecutions exist, but no rule requires monitoring or records.",
+  "c5": "Council estates (Withernsea council surveyed all tanks) and dioceses are inferred buyers; no job adverts or budget evidence (search budget exhausted).",
+  "c6": "OFTEC inspectors/environmental contractors visit annually, and oil distributors already sell tank monitors with subscriptions (BoilerJuice search-confirmed, Certa Ireland FoxRadar), though mainly to domestic customers.",
+  "c7": "Commoditised level monitoring: Watchman Anywhere £25/yr, BoilerJuice £4.99/month, FoxRadar drop alerts; AFRISO already sells a wireless oil/water bund probe; the combined commercial compliance-pack gap is asserted.",
+  "c8": "Level sensing proven at £75 retail and oil/water combination probes are established (AFRISO, Zoeller); no BOM; note search shows BoilerJuice uses an in-tank probe cable, not ultrasonic as the file says.",
+  "c9": "Subscriptions accepted but low (£25/yr to ~£60-84/yr); annual OFTEC cycle exists but no statutory record-retention schedule shown.",
+  "c10": "EA prosecution reported by IEMA (enforcement), local press and council grant notices, a Singletrack forum thread on insurance liability (domestic); three types present but the forum and much press are domestic rather than commercial."
+ },
+ "total": 58,
+ "weakest": "Cheap tank monitors with drop alerts (£25-£60/yr) and an existing wireless oil/water bund probe leave little room, and no source shows how often commercial tanks or bunds actually leak.",
+ "verified_urls": [
+  {
+   "url": "https://iema.net/articles/costly-oil-leak-for-council",
+   "result": "blocked",
+   "note": "WebFetch attempted: ENOTFOUND iema.net (outside allowed network domains)."
+  },
+  {
+   "url": "https://iema.net/articles/costly-oil-leak-for-council",
+   "result": "search-confirmed",
+   "note": "IEMA 'Costly oil leak for council': East Riding council fined £18,000 + £3,939 costs over Withernsea High School heating-oil leak; council then surveyed tanks at all sites. Matches the file."
+  },
+  {
+   "url": "https://www.oftec.org/consumers/are-you-insured-for-an-oil-tank-leak",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.oftec.org/consumers/are-you-insured-for-an-oil-tank-leak",
+   "result": "search-confirmed",
+   "note": "OFTEC consumer page: most home insurance covers lost oil and home damage 'but NOT the environmental investigation and clean-up costs'; also says domestic clean-up >£20,000 is not unusual."
+  },
+  {
+   "url": "https://www.boilerjuice.com/uk/connected",
+   "result": "blocked",
+   "note": "Not fetched: network policy blocks page fetching in this session (dispatch: record chosen URLs as blocked after one failed attempt)."
+  },
+  {
+   "url": "https://www.boilerjuice.com/uk/connected",
+   "result": "search-confirmed",
+   "note": "BoilerJuice Connected: £75 monitor + £4.99/month confirmed; snippet describes a probe cable dropped into the oil (not ultrasonic as the file's c8 bullet states)."
+  }
+ ],
+ "distinct_credible_urls": 33,
+ "summary": "Credible money and containment law but rare per-site events and a commoditised monitor market; mid-table, no URL fetch-verified (3 search-confirmed)."
+}

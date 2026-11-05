@@ -1,0 +1,26 @@
+{"id": "R01-D-29",
+ "criterion_scores": {"c1": 2, "c2": 3, "c3": 5, "c4": 8, "c5": 4, "c6": 5, "c7": 2, "c8": 5, "c9": 3, "c10": 5},
+ "justifications": {
+  "c1": "The only money figures are council and aggregator prices for domestic mouse treatments (£75–£295 per course), which are price references, not losses. No cost of an extra return visit or on-site waiting was found, and the idea's £50–£100 per visit is not verified.",
+  "c2": "The NPTA reports that only 8 individual and 14 class licences were granted in all of 2025 (search-confirmed). The 6-hourly check recurs only during the few exceptional licensed jobs, so the pain is rare per firm.",
+  "c3": "The workaround is documented: stay on site and inspect at least every 6 hours (BPCA guidance and Killgerm, search-confirmed). Its labour or cost is not quantified, and the main real-world workaround is simply not using glue boards.",
+  "c4": "The Glue Traps (Offences) Act 2022 and Natural England licence conditions require 6-hourly inspection, a response within 2 hours, records, a report within 5 working days, and on-site presence unless remote monitoring is used (gov.uk, BPCA and Killgerm, search-confirmed). No enforcement cases (prosecutions) were found.",
+  "c5": "The buyer would be a pest-control firm owner or technical manager whose staff hold licences, but no job advert or budget evidence was found. Only about 22 licences were granted in 2025, so the pool of buyers is tiny.",
+  "c6": "Distributors (Killgerm, 1env) publish the licence guidance, and trade bodies (BPCA, NPTA) run training. The only sign of a distributor selling monitoring is a Pestfix 'TrapSensor' index title, with content unconfirmed.",
+  "c7": "The market is close to zero and shrinking: about 22 licences in England in 2025, a total ban in Wales (2023) and a ban in Scotland (July 2026). There is no priced comparable product, and the BPCA urges 'extreme caution' about remote monitoring replacing visits.",
+  "c8": "Generic LoRaWAN accelerometer nodes cost €57–€80, and patents show glue-board capture detection is feasible. There is a freedom-to-operate risk (US11464221, US11602144). No LTE-M price was found, and nothing says what Natural England accepts as remote monitoring equipment.",
+  "c9": "Each use triggers record-keeping and a report within 5 days, and class licences are renewed yearly. With about 22 licences a year, per-job revenue would be negligible, and no comparable subscription price was found.",
+  "c10": "Trade associations (NPTA, BPCA), a retail trade body (BIRA), campaigners (Protect the Wild, OneKind) and STV news cover the law. None shows the stay-on-site burden as a complaint, and the BPCA 'not working' claim is unattributed."
+ },
+ "total": 42,
+ "weakest": "There is effectively no market: Natural England granted only about 22 glue-trap licences in all of 2025, and Wales and Scotland have banned use outright.",
+ "verified_urls": [
+  {"url": "https://www.npta.org.uk/?p=84768", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.gov.uk/guidance/glue-trap-licences", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://1env.com/media/bss/productattachment/BPCAguidancedocumentGluetrapoffencesactversion1.3.pdf", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.npta.org.uk/?p=84768", "result": "search-confirmed", "note": "The snippet says Natural England 'only granted 8 individual licenses and 14 class licenses throughout the whole of 2025'"},
+  {"url": "https://www.gov.uk/guidance/glue-trap-licences", "result": "search-confirmed", "note": "The snippet says licence holders must 'remain on site while the traps are in use, or use remote monitoring devices'. The 'every trap' wording comes from Killgerm."},
+  {"url": "https://1env.com/media/bss/productattachment/BPCAguidancedocumentGluetrapoffencesactversion1.3.pdf", "result": "search-confirmed", "note": "BPCA guidance shown in results: remain on site unless using remote monitoring, check traps every six hours, respond to a triggered trap within 2 hours"}
+ ],
+ "distinct_credible_urls": 30,
+ "summary": "The licence wording explicitly rewards remote alerts, but the licensed market is about 22 licences a year and shrinking, with no sourced money loss; reject."}

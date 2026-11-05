@@ -1,0 +1,26 @@
+{"id": "R01-D-28",
+ "criterion_scores": {"c1": 6, "c2": 6, "c3": 6, "c4": 9, "c5": 5, "c6": 7, "c7": 5, "c8": 6, "c9": 6, "c10": 8},
+ "justifications": {
+  "c1": "Several independent per-incident fines are sourced: Craven £24k (Construction Index, search-confirmed), Swain £24k + £3.45k, Crusaders £7.5k, and £9k. They are old (2010–2014) and rare per contractor. The idea's claim of £100k+ is not evidenced, and no per-scaffold annual loss or inspection cost was found to show payback within 12 months.",
+  "c2": "The statutory inspection recurs weekly (every 7 days under WAHR reg 12, search-confirmed), but the sensor cannot replace it. The parts the sensor addresses are post-storm triage (named storms several times a winter, evidenced only by separate events in 2016, 2019 and 2024) and movement between inspections (rare). Value is therefore hard to show inside a 1–3-month pilot.",
+  "c3": "The manual routine is documented: a CISRS-qualified competent person inspects in person and records it on tags or in apps (HASpod, Scafflinq, ScaffoldIQ). Inspector pay is sourced (£35.5k–£44.4k; £25.52–£50.44/h), but no time or travel per inspection was found. The law still requires the visit, so the sensor reduces little labour.",
+  "c4": "WAHR 2005 reg 12 and Schedule 7 (primary; 7-day interval and records search-confirmed). Enforcement is evidenced: Craven pleaded guilty to breaching reg 12(4) by not inspecting within 7 days (search-confirmed), and a co-defendant (Ashbrook) was fined for inspection failures. Held at 9 because a sensor record cannot itself satisfy the competent-person duty.",
+  "c5": "The only evidenced titles are scaffold inspectors (Yorkshire Water, Peterhead), who hold no budget. No contracts manager or operations director with a technology budget was found (the researcher records this as a gap).",
+  "c6": "Scaffold security-alarm hire firms (Safesite Facilities) already fit wireless devices to scaffolds nationwide, and Mabey Hire rents wireless tilt sensors to construction sites. Both are named channels with adjacent technology on this site type, but neither sells scaffold movement monitoring.",
+  "c7": "No scaffold-specific movement product was found. The only comparable paid products are general structural tiltmeters (Senceive, Yeltech, enterprise) and cheap digital-tag software, so willingness to pay for scaffold movement sensing is unproven. Research prototypes and a patent exist without commercial uptake, and none of this is explained.",
+  "c8": "Off-the-shelf LoRaWAN tilt sensors are priced (Milesight EM310-TILT €57, EM320-TILT €80, Dragino $131) with 3–5-year batteries (vendor claims). A scaffold needs several points, an on-site gateway or LTE-M backhaul and an unpriced wind sensor. False alarms are likely, since scaffolds are routinely adapted and struck.",
+  "c9": "There is a statutory record schedule (reports kept until the next inspection, reg 12). The comparable price anchor is very low: Scafflinq at A$1/tag/week (conflicting with A$0.40/month in search), roughly £2–£4/month, and ScaffoldIQ at $39.99/user/28 days. The sensor data does not replace the statutory report.",
+  "c10": "Enforcement reports (HSE prosecutions in the Construction Index and Scaffmag), trade press (NASC storm alert, SHP HSE reminder, Design and Build UK), news (Yahoo, Fox Weather) and a scaffolders' forum thread. The forum thread is a compliance question, not a complaint about the pain."
+ },
+ "total": 64,
+ "weakest": "The sensor cannot remove the legally required weekly competent-person inspection. Its value is only triage and rare-event alerting, and nobody has evidenced paying for scaffold movement monitoring.",
+ "verified_urls": [
+  {"url": "https://www.legislation.gov.uk/uksi/2005/735/regulation/12/data.pdf", "result": "blocked", "note": "WebFetch failed: ENOTFOUND, host outside the allowed network domains"},
+  {"url": "https://www.theconstructionindex.co.uk/news/view/Manchester-contractor-fined-24-000-after-scaffolding-collapse", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.capterra.com/p/10019208/Scafflinq/", "result": "blocked", "note": "Not fetched: network policy blocks fetching"},
+  {"url": "https://www.legislation.gov.uk/uksi/2005/735/regulation/12/data.pdf", "result": "search-confirmed", "note": "The search shows this URL; snippets confirm inspection at intervals not exceeding 7 days and records kept until the next inspection. The 24-hour detail was not seen."},
+  {"url": "https://www.theconstructionindex.co.uk/news/view/Manchester-contractor-fined-24-000-after-scaffolding-collapse", "result": "search-confirmed", "note": "Craven Scaffolding fined £24,000 after a collapse in Hyde. The snippet says it breached reg 12(4) by not inspecting within 7 days."},
+  {"url": "https://www.capterra.com/p/10019208/Scafflinq/", "result": "unconfirmed", "note": "No Capterra listing appeared. Other aggregators show A$0.40 (per month on GetApp), and the App Store confirms the first five tags are free."}
+ ],
+ "distinct_credible_urls": 38,
+ "summary": "Strong statutory and enforcement basis, but the sensor only triages an inspection the law still requires, the price anchor is about £2–£4 per tag per month, and demand for scaffold movement monitoring is unproven."}
